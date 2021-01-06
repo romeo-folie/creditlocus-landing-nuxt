@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import IntroSection from '@/components/IntroSection'
-import OfferSection from '@/components/OfferSection'
-import LoansSection from '@/components/LoansSection'
-import CashflowSection from '@/components/CashflowSection'
-import ApprovalSection from '@/components/ApprovalSection'
-import FaqSection from '@/components/FaqSection'
+import IntroSection from '@/components/Home/IntroSection'
+import OfferSection from '@/components/Home/OfferSection'
+import LoansSection from '@/components/Home/LoansSection'
+import CashflowSection from '@/components/Home/CashflowSection'
+import ApprovalSection from '@/components/Home/ApprovalSection'
+import FaqSection from '@/components/Home/FaqSection'
 
 export default {
   components: {
