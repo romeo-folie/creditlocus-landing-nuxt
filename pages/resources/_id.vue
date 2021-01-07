@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import PostView from '~/components/blog/PostView'
-import RelatedPostsSection from '~/components/blog/RelatedPostsSection'
+import PostView from '~/components/blog/PostView.vue'
+import RelatedPostsSection from '~/components/blog/RelatedPostsSection.vue'
 
 export default {
   components: { PostView, RelatedPostsSection },

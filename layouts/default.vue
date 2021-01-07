@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import Aside from '@/components/Aside'
-import Overlay from '@/components/Overlay'
+import Header from '~/components/Header.vue'
+import Footer from '~/components/Footer.vue'
+import Aside from '~/components/Aside.vue'
+import Overlay from '~/components/Overlay.vue'
 
 export default {
   components: {
