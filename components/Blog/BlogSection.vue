@@ -20,9 +20,9 @@
 </template>
 
 <script>
-import FilterBar from '@/components/blog/FilterBar'
-import BlogPost from '@/components/blog/BlogPost'
-import Pagination from '@/components/blog/Pagination'
+import FilterBar from '~/components/blog/FilterBar'
+import BlogPost from '~/components/blog/BlogPost'
+import Pagination from '~/components/blog/Pagination'
 
 export default {
   name: 'BlogSection',

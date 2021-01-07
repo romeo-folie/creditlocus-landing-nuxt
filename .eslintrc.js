@@ -21,4 +21,11 @@ module.exports = {
      "endOfLine":"auto"
    }],
   },
+  settings: {
+    'import/resolver': {
+      nuxt: {
+        extensions: ['.js', '.vue'],
+      },
+    },
+  },
 }
