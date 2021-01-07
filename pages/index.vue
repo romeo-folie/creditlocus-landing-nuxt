@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <fragment>
     <intro-section />
     <offer-section />
     <loans-section />
     <cashflow-section />
     <approval-section />
     <faq-section />
-  </div>
+  </fragment>
 </template>
 
 <script>

@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <fragment>
     <statements-section />
     <hr />
     <company-info-section />
-  </div>
+  </fragment>
 </template>
 
 <script>

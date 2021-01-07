@@ -39,7 +39,7 @@
 .post-wrapper .post .text-container, section.related-posts .related-post-content .post-wrapper .post .text-container {
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: 60%;
   text-align: left;
   padding: 15px;
   justify-content: space-around;
@@ -1376,7 +1376,7 @@ section.blog .blog-content h3 {
 
 /* line 14, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar {
-  height: 50px;
+  height: 65px;
   width: 75%;
   display: flex;
   margin: 0 auto;
@@ -1587,7 +1587,7 @@ section.blog .blog-content .post-wrapper .post .image-container img {
 section.blog .blog-content .post-wrapper .post .text-container {
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: 60%;
   text-align: left;
   padding: 15px;
   justify-content: space-around;
