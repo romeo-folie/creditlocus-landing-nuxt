@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import BlogSection from '~/components/blog/BlogSection'
+import BlogSection from '@/components/blog/BlogSection'
 
 export default {
   components: {

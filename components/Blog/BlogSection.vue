@@ -20,9 +20,9 @@
 </template>
 
 <script>
-import FilterBar from '~/components/blog/FilterBar.vue'
-import BlogPost from '~/components/blog/BlogPost.vue'
-import Pagination from '~/components/blog/Pagination.vue'
+import FilterBar from '@/components/blog/FilterBar'
+import BlogPost from '@/components/blog/BlogPost'
+import Pagination from '@/components/blog/Pagination'
 
 export default {
   name: 'BlogSection',
