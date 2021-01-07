@@ -1,21 +1,21 @@
 <template>
   <div>
-    <IntroSection />
-    <OfferSection />
-    <LoansSection />
-    <CashflowSection />
-    <ApprovalSection />
-    <FaqSection />
+    <intro-section />
+    <offer-section />
+    <loans-section />
+    <cashflow-section />
+    <approval-section />
+    <faq-section />
   </div>
 </template>
 
 <script>
-import IntroSection from '@/components/Home/IntroSection'
-import OfferSection from '@/components/Home/OfferSection'
-import LoansSection from '@/components/Home/LoansSection'
-import CashflowSection from '@/components/Home/CashflowSection'
-import ApprovalSection from '@/components/Home/ApprovalSection'
-import FaqSection from '@/components/Home/FaqSection'
+import IntroSection from '@/components/home/IntroSection'
+import OfferSection from '@/components/home/OfferSection'
+import LoansSection from '@/components/home/LoansSection'
+import CashflowSection from '@/components/home/CashflowSection'
+import ApprovalSection from '@/components/home/ApprovalSection'
+import FaqSection from '@/components/home/FaqSection'
 
 export default {
   components: {
@@ -28,5 +28,3 @@ export default {
   },
 }
 </script>
-
-<style></style>

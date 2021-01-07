@@ -1,14 +1,14 @@
 <template>
   <div>
-    <StatementsSection />
+    <statements-section />
     <hr />
-    <CompanyInfoSection />
+    <company-info-section />
   </div>
 </template>
 
 <script>
-import StatementsSection from '@/components/About/StatementsSection'
-import CompanyInfoSection from '@/components/About/CompanyInfoSection'
+import StatementsSection from '@/components/about/StatementsSection'
+import CompanyInfoSection from '@/components/about/CompanyInfoSection'
 
 export default {
   components: {
@@ -17,5 +17,3 @@ export default {
   },
 }
 </script>
-
-<style></style>
