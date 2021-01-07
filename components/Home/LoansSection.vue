@@ -1,5 +1,5 @@
 <template>
-  <section class="loans">
+  <section id="how-it-works" class="loans">
     <div class="loans-content">
       <div class="text-left">
         <h3>

@@ -8,11 +8,17 @@
       </div>
 
       <ul class="navlist">
-        <li><a class="nav-link" href="">How it works</a></li>
         <li>
-          <NuxtLink class="nav-link" to="/resources">Resources</NuxtLink>
+          <nuxt-link class="nav-link" to="/#how-it-works"
+            >How it works</nuxt-link
+          >
         </li>
-        <li><NuxtLink class="nav-link" to="/about">About</NuxtLink></li>
+        <li>
+          <nuxt-link class="nav-link" to="/resources" exact
+            >Resources</nuxt-link
+          >
+        </li>
+        <li><nuxt-link class="nav-link" to="/about" exact>About</nuxt-link></li>
       </ul>
     </div>
 
