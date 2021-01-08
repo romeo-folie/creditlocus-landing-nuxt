@@ -19,7 +19,6 @@
 
       <div class="image-right">
         <img src="/images/rocket1x.png" alt="rocket" />
-        <!-- <img src="assets/illustrations/3.svg" alt="" style="height:450px;"> -->
       </div>
     </div>
   </section>

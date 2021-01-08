@@ -14,7 +14,7 @@
 
         <div id="play-video" class="play-video" onclick="showVideo()">
           <div class="play-cont">
-            <span>▶</span>
+            <img src="/icons/play.svg" alt="play button" />
           </div>
           <span>See how our loans work</span>
         </div>
