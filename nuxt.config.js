@@ -47,7 +47,23 @@ export default {
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: ['@nuxtjs/firebase',],
+  firebase: {
+    config: {
+      apiKey: "AIzaSyDCeV_PocowDRqfX0C5qxYUKJik8CBLnKU",
+      authDomain: "credit-locus-landing.firebaseapp.com",
+      projectId: "credit-locus-landing",
+      storageBucket: "credit-locus-landing.appspot.com",
+      messagingSenderId: "751930680145",
+      appId: "1:751930680145:web:353987cba9e44d24ef6970",
+      measurementId: "G-DPE0CTE5RH"
+    },
+    services: {
+      firestore: {
+        memoryOnly: true,
+      },
+    }
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
