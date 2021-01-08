@@ -1,7 +1,7 @@
 <template>
   <fragment>
-    <intro-section />
-    <offer-section />
+    <IntroSection />
+    <OfferSection />
     <loans-section />
     <cashflow-section />
     <approval-section />
