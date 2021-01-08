@@ -13,11 +13,11 @@
 </template>
 
 <script>
-import BlogPost from './BlogPost.vue'
+// import BlogPost from './BlogPost.vue'
 
 export default {
   name: 'RelatedPostsSection',
-  components: { BlogPost },
+  // components: { BlogPost },
 }
 </script>
 
