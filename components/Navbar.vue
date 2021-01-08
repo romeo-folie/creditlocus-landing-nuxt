@@ -14,11 +14,9 @@
           >
         </li>
         <li>
-          <nuxt-link class="nav-link" to="/resources" exact
-            >Resources</nuxt-link
-          >
+          <nuxt-link to="/resources" class="nav-link">Resources</nuxt-link>
         </li>
-        <li><nuxt-link class="nav-link" to="/about" exact>About</nuxt-link></li>
+        <li><nuxt-link to="/about" class="nav-link">About</nuxt-link></li>
       </ul>
     </div>
 

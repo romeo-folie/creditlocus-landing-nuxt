@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import PostView from '@/components/blog/PostView'
-import RelatedPostsSection from '@/components/blog/RelatedPostsSection'
+// import PostView from '@/components/blog/PostView'
+// import RelatedPostsSection from '@/components/blog/RelatedPostsSection'
 
-export default {
-  components: { PostView, RelatedPostsSection },
-}
+// export default {
+//   components: { PostView, RelatedPostsSection },
+// }
 </script>
 
 <style></style>

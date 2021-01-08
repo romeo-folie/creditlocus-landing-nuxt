@@ -25,7 +25,20 @@ export default {
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
-  components: true,
+  components: [
+    {
+      path: '~/components/',
+    },
+    {
+      path: '~/components/home/',
+    },
+    {
+      path: '~/components/about/',
+    },
+    {
+      path: '~/components/blog/',
+    }
+  ],
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [

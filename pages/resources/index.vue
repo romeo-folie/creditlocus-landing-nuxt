@@ -3,13 +3,13 @@
 </template>
 
 <script>
-import BlogSection from '@/components/blog/BlogSection'
+// import BlogSection from '@/components/blog/BlogSection'
 
-export default {
-  components: {
-    BlogSection,
-  },
-}
+// export default {
+//   components: {
+//     BlogSection,
+//   },
+// }
 </script>
 
 <style></style>
