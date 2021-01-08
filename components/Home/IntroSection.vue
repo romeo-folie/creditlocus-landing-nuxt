@@ -12,7 +12,7 @@
         <h4>Join our growing list of early bird businesses</h4>
 
         <div class="email-input">
-          <input type="email" placeholder="Email address" />
+          <input type="email" placeholder="email@example.com" />
           <a href="#" class="join-btn">Get early access</a>
         </div>
       </div>

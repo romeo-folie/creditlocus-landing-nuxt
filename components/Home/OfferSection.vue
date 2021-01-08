@@ -27,11 +27,7 @@
           Get a customized offer based on our revenue trends, and then choose
           your loan size.
         </h3>
-        <p>
-          No ongoing interest, just a simple
-          <br />
-          flat fee.
-        </p>
+        <p>No ongoing interest, just a simple flat fee.</p>
       </div>
     </div>
   </section>
