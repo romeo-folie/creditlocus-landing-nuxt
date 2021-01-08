@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <fragment>
     <Header />
     <Aside />
     <Overlay />
@@ -7,21 +7,7 @@
       <Nuxt />
     </div>
     <Footer />
-  </div>
+  </fragment>
 </template>
 
-<script>
-// import Header from '@/components/Header'
-// import Footer from '@/components/Footer'
-// import Aside from '@/components/Aside'
-// import Overlay from '@/components/Overlay'
-
-// export default {
-//   components: {
-//     Header,
-//     Aside,
-//     Footer,
-//     Overlay,
-//   },
-// }
-</script>
+<script></script>

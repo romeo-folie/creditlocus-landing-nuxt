@@ -18,13 +18,8 @@
 </template>
 
 <script>
-// import ApprovalItem from './ApprovalItem.vue'
-
 export default {
   name: 'ApprovalSection',
-  // components: {
-  //   ApprovalItem,
-  // },
 }
 </script>
 
