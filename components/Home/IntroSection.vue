@@ -1,7 +1,7 @@
 <template>
   <fragment>
     <success-alert v-show="showSuccessAlert" />
-    <error-alert v-if="showErrorAlert" />
+    <error-alert v-show="showErrorAlert" />
     <section class="intro">
       <div class="intro-content">
         <div class="text-left">
@@ -35,11 +35,13 @@
 </template>
 
 <script>
+/* eslint-disable */
 export default {
   name: 'IntroSection',
   data: () => {
     return {
       email: '',
+      mailFormat: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
       showSuccessAlert: false,
       showErrorAlert: false,
     }
@@ -47,7 +49,8 @@ export default {
   methods: {
     saveUser(e) {
       e.preventDefault()
-      if (this.email.length > 0) {
+
+      if (this.email.length > 0 && this.email.match(this.mailFormat)) {
         this.$store
           .dispatch('users/addUser', { email: this.email })
           .then(() => {
@@ -63,6 +66,11 @@ export default {
               this.showErrorAlert = false
             }, 3000)
           })
+      } else {
+        this.showErrorAlert = true
+        setTimeout(() => {
+          this.showErrorAlert = false
+        }, 3000)
       }
     },
   },
