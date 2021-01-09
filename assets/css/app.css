@@ -2319,7 +2319,7 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
   top: 100px;
   right: 2%;
   border-radius: 5px;
-  z-index: 50;
+  z-index: 100;
 }
 
 /* line 11, D:/Projects/htmlCSS/credit-locus/sass/modules/_error_alert.sass */
@@ -2378,7 +2378,7 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
   top: 100px;
   right: 2%;
   border-radius: 5px;
-  z-index: 50;
+  z-index: 100;
 }
 
 /* line 11, D:/Projects/htmlCSS/credit-locus/sass/modules/_success_alert.sass */
