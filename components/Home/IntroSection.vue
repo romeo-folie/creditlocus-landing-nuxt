@@ -7,9 +7,9 @@
         <div class="text-left">
           <h2>
             Money to keep
-            <br />
+            <!-- <br /> -->
             your business
-            <br />
+            <!-- <br /> -->
             moving.
           </h2>
           <h4>Join our growing list of early bird businesses</h4>
