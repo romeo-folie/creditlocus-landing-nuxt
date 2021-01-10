@@ -748,23 +748,27 @@ section.offer .offer-content .text-right p {
   section.offer .offer-content .amt-card-left .amt-card-bg .amt-card .amt-card-content h3 {
     font-size: 2.2rem;
   }
-  /* line 109, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 108, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .fee-container {
+    font-size: 0.9rem;
+  }
+  /* line 111, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right h3 {
     font-size: 2.2rem;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 116, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 118, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .amt-card-left .amt-card-bg {
     height: 600px;
     width: 470px;
   }
-  /* line 119, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 121, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right {
     max-width: 50%;
   }
-  /* line 121, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 123, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right h3 {
     font-size: 3.0rem;
   }
@@ -2318,7 +2322,7 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
   align-items: center;
   background-color: rgba(255, 0, 0, 0.2);
   border-bottom: 3px solid rgba(255, 0, 0, 0.3);
-  padding: 15px;
+  padding: 10px;
   position: absolute;
   top: 100px;
   right: 2%;
@@ -2338,8 +2342,8 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
   border: 2px solid rgba(255, 0, 0, 0.5);
   border-radius: 50%;
   position: relative;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background-color: #fff;
 }
 
@@ -2349,8 +2353,8 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
 }
 
 /* line 30, D:/Projects/htmlCSS/credit-locus/sass/modules/_error_alert.sass */
@@ -2362,7 +2366,7 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
 #error-alert-container .alert-content .alert-title {
   color: rgba(255, 0, 0, 0.8);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 
 /* line 36, D:/Projects/htmlCSS/credit-locus/sass/modules/_error_alert.sass */
@@ -2377,7 +2381,7 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
   align-items: center;
   background-color: rgba(0, 128, 0, 0.2);
   border-bottom: 3px solid rgba(0, 128, 0, 0.3);
-  padding: 15px;
+  padding: 10px;
   position: absolute;
   top: 100px;
   right: 2%;
@@ -2400,8 +2404,8 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
   border: 2px solid rgba(0, 128, 0, 0.5);
   border-radius: 50%;
   position: relative;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background-color: #fff;
 }
 
@@ -2411,8 +2415,8 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
 }
 
 /* line 31, D:/Projects/htmlCSS/credit-locus/sass/modules/_success_alert.sass */
@@ -2424,7 +2428,7 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
 #success-alert-container .alert-content .alert-title {
   color: rgba(0, 128, 0, 0.8);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 
 /* line 37, D:/Projects/htmlCSS/credit-locus/sass/modules/_success_alert.sass */
