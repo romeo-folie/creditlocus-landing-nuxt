@@ -5,19 +5,23 @@
     </div>
     <div class="text-container">
       <div class="line-one">
-        <span id="cat">Category</span>
-        <span>December 23</span>
+        <span id="cat">{{ post.categories[0].name }}</span>
+        <span>{{ $moment(post.published_at).format('MMMM DD') }}</span>
       </div>
       <div class="article-content">
-        <h4>This is supposed to be an awesome article title.</h4>
+        <h4>{{ post.title }}</h4>
         <p>
-          This is supposed to be some of the content of the aforementioned
-          awesome article. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Expedita qui nihil commodi, est corporis architecto provident in
-          veritatis odio quaerat?
+          {{ post.content }}
         </p>
       </div>
-      <a id="more" href="#">Read more</a>
+      <nuxt-link
+        id="more"
+        :to="{
+          name: 'resources',
+          query: { slug: post.slug },
+        }"
+        >Read more</nuxt-link
+      >
     </div>
   </div>
 </template>
@@ -25,6 +29,12 @@
 <script>
 export default {
   name: 'BlogPost',
+  props: {
+    post: {
+      type: Object,
+      default: () => {},
+    },
+  },
 }
 </script>
 

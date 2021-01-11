@@ -44,10 +44,11 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-  ],
+    '@nuxtjs/moment',
+  ],  
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxtjs/firebase',],
+  modules: ['@nuxtjs/firebase','@nuxt/http','@nuxtjs/proxy'],
   firebase: {
     config: {
       apiKey: "AIzaSyDCeV_PocowDRqfX0C5qxYUKJik8CBLnKU",
@@ -64,7 +65,17 @@ export default {
       },
     }
   },
-
+  http: {
+    proxy: true, // Can be also an object with default options
+    retry: true,
+  },
+  proxy: {
+    '/api/': {
+      target: 'http://localhost:1337',
+      pathRewrite: { '^/api/': '' }
+    }
+  },
+  publicRuntimeConfig: {},
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
 }

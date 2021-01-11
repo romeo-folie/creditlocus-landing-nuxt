@@ -1,15 +1,14 @@
 <template>
-  <blog-section />
+  <blog-section :posts="posts" />
 </template>
 
 <script>
-// import BlogSection from '@/components/blog/BlogSection'
-
-// export default {
-//   components: {
-//     BlogSection,
-//   },
-// }
+export default {
+  async asyncData({ params, $http }) {
+    const posts = await $http.$get('http://localhost:1337/articles')
+    return { posts }
+  },
+}
 </script>
 
 <style></style>

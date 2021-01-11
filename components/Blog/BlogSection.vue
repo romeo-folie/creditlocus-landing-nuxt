@@ -6,12 +6,7 @@
       <filter-bar />
 
       <div class="post-wrapper">
-        <blog-post />
-        <blog-post />
-        <blog-post />
-        <blog-post />
-        <blog-post />
-        <blog-post />
+        <blog-post v-for="post in posts" :key="post.id" :post="post" />
       </div>
 
       <pagination />
@@ -22,6 +17,12 @@
 <script>
 export default {
   name: 'BlogSection',
+  props: {
+    posts: {
+      type: Array,
+      default: () => [],
+    },
+  },
 }
 </script>
 
