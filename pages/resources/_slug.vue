@@ -6,11 +6,14 @@
 </template>
 
 <script>
+// import { mapGetters } from 'vuex'
+
 export default {
-  async asyncData({ route, $http }) {
-    const post = await $http.$get(
-      `http://localhost:1337/articles?slug=${route.query.slug}`
+  async asyncData({ params, $http }) {
+    const res = await $http.$get(
+      `http://localhost:1337/articles?slug=${params.slug}`
     )
+    const post = res[0]
     return { post }
   },
 }

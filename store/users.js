@@ -1,7 +1,8 @@
+/* eslint-disable */
+
 // action types
 export const ADD_USER = 'addUser'
 
-/* eslint-disable */
 // mutation types
 export const SET_USER = 'setUser'
 

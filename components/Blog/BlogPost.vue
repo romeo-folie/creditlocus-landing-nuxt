@@ -17,8 +17,8 @@
       <nuxt-link
         id="more"
         :to="{
-          name: 'resources',
-          query: { slug: post.slug },
+          name: 'resources-slug',
+          params: { slug: post.slug },
         }"
         >Read more</nuxt-link
       >

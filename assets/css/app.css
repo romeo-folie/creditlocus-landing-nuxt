@@ -44,7 +44,7 @@
   padding: 15px;
   justify-content: space-around;
   border-radius: 0 0 15px 15px;
-  background-color: #fbfbfb;
+  background-color: #fff;
 }
 
 /* line 33, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
@@ -75,7 +75,7 @@
 /* line 46, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
 .post-wrapper .post .text-container .article-content h4 {
   font-family: 'Matter';
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0 0 10px;
   color: #5F626F;
   display: -webkit-box;
@@ -99,9 +99,10 @@
 .post-wrapper .post .text-container a#more {
   font-size: .9rem;
   margin-left: auto;
+  color: #372865;
 }
 
-/* line 66, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
+/* line 67, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
 .post-wrapper .post .text-container a#more::after {
   content: "\27f6";
   color: #372865;
@@ -109,22 +110,22 @@
 }
 
 @media screen and (min-width: 1280px) {
-  /* line 75, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
+  /* line 76, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
   section.blog .blog-content .post-wrapper .post {
     width: 315px;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 81, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
+  /* line 82, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
   section.blog .blog-content .post-wrapper {
     grid-template-columns: repeat(auto-fill, minmax(330px, 29%));
   }
-  /* line 83, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
+  /* line 84, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
   section.blog .blog-content .post-wrapper .post {
     width: 330px;
   }
-  /* line 87, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
+  /* line 88, D:/Projects/htmlCSS/credit-locus/sass/_extends.sass */
   section.blog .blog-content .post-wrapper .post .text-container .article-content p {
     -webkit-line-clamp: 5;
   }
@@ -1563,7 +1564,7 @@ section.blog .blog-content .filter-bar .input-container input#search:focus {
 section.blog .blog-content .post-wrapper {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 30px 20px;
   margin: 30px 0 50px;
   justify-content: center;
@@ -1809,10 +1810,10 @@ section.post .post-content h3 {
 
 /* line 19, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
 section.post .post-content div#category {
-  padding: 6px 10px;
+  padding: 8px 10px;
   border-radius: 25px;
   border: 1px solid #909ABB;
-  width: 80px;
+  max-width: 130px;
   margin: 0 auto 30px;
   font-size: 0.9rem;
   color: #909ABB;

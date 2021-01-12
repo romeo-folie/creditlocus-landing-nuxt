@@ -1,7 +1,7 @@
 <template>
   <section class="post">
     <div class="post-content">
-      <a id="back" href="#">Back</a>
+      <nuxt-link id="back" to="/resources">Back</nuxt-link>
       <h3>{{ post.title }}</h3>
       <div id="category">{{ post.categories[0].name.toUpperCase() }}</div>
 
