@@ -71,11 +71,13 @@ export default {
   },
   proxy: {
     '/api/': {
-      target: 'http://localhost:1337',
+      target: 'https://credit-locus-blog.herokuapp.com',
       pathRewrite: { '^/api/': '' }
     }
   },
-  publicRuntimeConfig: {},
+  publicRuntimeConfig: {
+    baseURL: process.env.BASE_URL,
+  },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
 }

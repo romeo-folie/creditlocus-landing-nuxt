@@ -4,8 +4,8 @@
 
 <script>
 export default {
-  async asyncData({ params, $http }) {
-    const posts = await $http.$get('http://localhost:1337/articles')
+  async asyncData({ params, $http, $config }) {
+    const posts = await $http.$get($config.baseURL + '/articles')
     return { posts }
   },
 }
