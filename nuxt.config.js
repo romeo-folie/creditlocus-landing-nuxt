@@ -10,7 +10,28 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, 
+      {
+        rel: 'preload',
+        as: 'font',
+        type: 'font/woff2',
+        href: '/fonts/DMSans/DMSans-Regular.woff2',
+        crossorigin: true,
+      },
+      {
+        rel: 'preload',
+        as: 'font',
+        type: 'font/woff2',
+        href: '/fonts/Matter/Matter-Bold.woff2',
+        crossorigin: true,
+      },
+      {
+        rel: 'preconnect',
+        href: 'https://credit-locus-blog.herokuapp.com',
+        crossorigin: true,
+      },
+    ],
     script: [{ src: '/js/index.js', body: true }],
   },
 
@@ -66,7 +87,7 @@ export default {
     }
   },
   http: {
-    proxy: true, // Can be also an object with default options
+    proxy: true, 
     retry: true,
   },
   proxy: {
