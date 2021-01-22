@@ -135,15 +135,17 @@
   font-family: "Matter";
   src: url("/fonts/Matter/Matter-Bold.woff2") format("woff2");
   src: url("/fonts/Matter/Matter-Bold.woff") format("woff");
+  font-display: block;
 }
 
 @font-face {
   font-family: "DM Sans";
   src: url("/fonts/DMSans/DMSans-Regular.woff2") format("woff2");
   src: url("/fonts/DMSans/DMSans-Regular.woff") format("woff");
+  font-display: block;
 }
 
-/* line 11, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 13, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 body {
   font-family: 'DM Sans', 'sans-serif', 'serif';
   margin: 0;
@@ -156,7 +158,7 @@ body {
   position: relative;
 }
 
-/* line 21, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 23, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 body .overlay {
   position: absolute;
   top: 0;
@@ -168,7 +170,7 @@ body .overlay {
   display: none;
 }
 
-/* line 30, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 32, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 body .overlay .close-btn {
   position: absolute;
   top: 36%;
@@ -180,29 +182,29 @@ body .overlay .close-btn {
   transform: translateX(50%);
 }
 
-/* line 40, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 42, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 body .overlay .close-btn a img {
   height: 20px;
   width: 20px;
   z-index: 200;
 }
 
-/* line 45, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 47, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 48, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 50, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 h2, h3 {
   font-family: 'Matter';
 }
 
-/* line 51, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 53, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 button {
   font-family: 'DM Sans';
 }
 
-/* line 54, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 56, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 ul {
   list-style: none;
   text-decoration: none;
@@ -210,7 +212,7 @@ ul {
   padding: 0;
 }
 
-/* line 60, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 62, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a {
   display: flex;
   align-items: center;
@@ -220,17 +222,17 @@ a {
   font-weight: 700;
 }
 
-/* line 67, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 69, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a:focus {
   outline: none;
 }
 
-/* line 69, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 71, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a:active {
   color: #372865;
 }
 
-/* line 72, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 74, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 section {
   width: 100%;
   min-height: 100vh;
@@ -240,7 +242,7 @@ section {
 }
 
 @media screen and (min-width: 1280px) {
-  /* line 83, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  /* line 85, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
     top: 31%;
     right: 12%;
