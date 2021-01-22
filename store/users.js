@@ -18,7 +18,15 @@ export const mutations = {
 
 export const actions = {
   [ADD_USER] ({ commit }, userObj) {
-    commit(SET_USER, userObj.email)
-    return this.$fire.firestore.collection('users').add(userObj)
+    return new Promise((resolve, reject) => {
+      this.$http.$post('https://credit-locus-api.herokuapp.com/subscribers', userObj)
+        .then((res) => {
+          commit(SET_USER, res.email)
+          resolve(res)
+        })
+        .catch((error) => {
+          reject(error)
+        })
+    })
   },
 }

@@ -66,25 +66,30 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/moment',
+    '@aceforth/nuxt-optimized-images',
   ],  
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxtjs/firebase','@nuxt/http','@nuxtjs/proxy'],
-  firebase: {
-    config: {
-      apiKey: "AIzaSyDCeV_PocowDRqfX0C5qxYUKJik8CBLnKU",
-      authDomain: "credit-locus-landing.firebaseapp.com",
-      projectId: "credit-locus-landing",
-      storageBucket: "credit-locus-landing.appspot.com",
-      messagingSenderId: "751930680145",
-      appId: "1:751930680145:web:353987cba9e44d24ef6970",
-      measurementId: "G-DPE0CTE5RH"
-    },
-    services: {
-      firestore: {
-        memoryOnly: true,
-      },
-    }
+  modules: ['@nuxt/http','@nuxtjs/proxy'],
+  // firebase: {
+  //   config: {
+  //     apiKey: "AIzaSyDCeV_PocowDRqfX0C5qxYUKJik8CBLnKU",
+  //     authDomain: "credit-locus-landing.firebaseapp.com",
+  //     projectId: "credit-locus-landing",
+  //     storageBucket: "credit-locus-landing.appspot.com",
+  //     messagingSenderId: "751930680145",
+  //     appId: "1:751930680145:web:353987cba9e44d24ef6970",
+  //     measurementId: "G-DPE0CTE5RH"
+  //   },
+  //   services: {
+  //     firestore: {
+  //       memoryOnly: true,
+  //     },
+  //   }
+  // },
+  optimizedImages: {
+    optimizeImages: true,
+    optimizeImagesInDev: true,
   },
   http: {
     proxy: true, 
@@ -92,7 +97,7 @@ export default {
   },
   proxy: {
     '/api/': {
-      target: 'https://credit-locus-blog.herokuapp.com',
+      target: 'https://credit-locus-api.herokuapp.com',
       pathRewrite: { '^/api/': '' }
     }
   },
