@@ -133,15 +133,15 @@
 
 @font-face {
   font-family: "Matter";
-  src: url("/fonts/Matter/Matter-Bold.woff2") format("woff2");
-  src: url("/fonts/Matter/Matter-Bold.woff") format("woff");
+  src: local("Matter"), url("/fonts/Matter/Matter-Bold.woff2") format("woff2");
+  src: local("Matter"), url("/fonts/Matter/Matter-Bold.woff") format("woff");
   font-display: block;
 }
 
 @font-face {
   font-family: "DM Sans";
-  src: url("/fonts/DMSans/DMSans-Regular.woff2") format("woff2");
-  src: url("/fonts/DMSans/DMSans-Regular.woff") format("woff");
+  src: local("DM Sans"), url("/fonts/DMSans/DMSans-Regular.woff2") format("woff2");
+  src: local("DM Sans"), url("/fonts/DMSans/DMSans-Regular.woff") format("woff");
   font-display: block;
 }
 
