@@ -15,16 +15,13 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'RelatedPostsSection',
-  // props: {
-  //   posts: {
-  //     type: Array,
-  //     default: () => [],
-  //   },
-  // },
   computed: {
     ...mapState({
-      posts: (state) => state.posts.posts,
+      posts: (state) => state.posts.relatedPosts,
     }),
+  },
+  mounted() {
+    this.$store.dispatch('posts/getRelatedPosts')
   },
 }
 </script>
