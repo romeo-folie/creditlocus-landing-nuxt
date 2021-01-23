@@ -1,5 +1,5 @@
 <template>
-  <div id="success-alert-container">
+  <div v-show="displayAlert" id="success-alert-container">
     <div class="alert-icon">
       <span>
         <img src="/icons/check.svg" alt="Check icon" />
@@ -8,14 +8,22 @@
 
     <div class="alert-content">
       <div class="alert-title">Success</div>
-      <div class="alert-description">Email added successfully</div>
+      <div class="alert-description">{{ email }} added successfully</div>
     </div>
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
   name: 'SuccessAlert',
+  computed: {
+    ...mapState('notifications', {
+      displayAlert: (state) => state.success.displayAlert,
+      email: (state) => state.success.mail,
+    }),
+  },
 }
 </script>
 

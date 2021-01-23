@@ -1,6 +1,8 @@
 <template>
   <fragment>
     <Header />
+    <SuccessAlert />
+    <ErrorAlert />
     <Aside />
     <Overlay />
     <div class="content-wrapper">
