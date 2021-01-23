@@ -20,20 +20,19 @@ for (let i = 0; i < acc.length; i++) {
   });
 }
 
+window.onscroll = function() {
+  var scroll = window.scrollY;
+  if (scroll > 0) {
+    document.getElementById("top-nav").classList.add("active");
+  } else {
+    document.getElementById("top-nav").classList.remove("active");
+  }
+}
 
-// let resources = document.getElementsByClassName("resource-item");
 
-// for(let i = 0; i < resources.length; i++){
-//   resources[i].addEventListener("onmouseover", function() {
-    
-//   })
-// } 
 
 function showSideNav() {
-  console.log("called")
   const sideNavToggle = document.getElementById('side-nav')
-  // const mediaNav = document.getElementById('social-media-nav-bottom')
-  // mediaNav.style.visibility = 'hidden'
   if (sideNavToggle.className === 'side-menu') {
     sideNavToggle.className += ' show'
   } else {
@@ -43,8 +42,6 @@ function showSideNav() {
 
 function hideSideNav() {
   const sideNavToggle = document.getElementById('side-nav')
-  // const mediaNav = document.getElementById('social-media-nav-bottom')
-  // mediaNav.style.visibility = 'visible'
   if (sideNavToggle.className === 'side-menu show') {
     sideNavToggle.className = 'side-menu'
   }
@@ -58,7 +55,6 @@ function showVideo(){
 
   overlay.style.display = 'block'
   videoContainer.style.display = 'block'
-  // document.body.style.overflow = "hidden"
 }
 
 function hideVideo(){
@@ -67,5 +63,4 @@ function hideVideo(){
 
   overlay.style.display = 'none'
   videoContainer.style.display = 'none'
-  // document.body.style.overflow = "visible"
 }

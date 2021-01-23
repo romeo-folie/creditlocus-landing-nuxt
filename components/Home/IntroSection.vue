@@ -53,7 +53,7 @@ export default {
             this.$store.dispatch('notifications/showErrorAlert', 'Failed to add email')
           })
       } else {
-        this.$store.dispatch('notifications/showErrorAlert', 'Please enter your email first')
+        this.$store.dispatch('notifications/showErrorAlert', 'Please enter a valid email first')
       }
     },
   },
