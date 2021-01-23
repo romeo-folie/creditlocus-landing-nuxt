@@ -23,14 +23,6 @@ export default {
       default: () => [],
     },
   },
-  mounted() {
-    this.savePosts()
-  },
-  methods: {
-    savePosts() {
-      this.$store.commit('posts/setPosts', this.posts)
-    },
-  },
 }
 </script>
 

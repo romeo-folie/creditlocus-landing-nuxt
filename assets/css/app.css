@@ -1895,28 +1895,29 @@ section.post .post-content .article-wrapper div#ad {
 section.related-posts {
   background-color: #f9f9f9;
   height: auto;
+  min-height: 80vh;
 }
 
-/* line 4, D:/Projects/htmlCSS/credit-locus/sass/layouts/_related-posts-section.sass */
+/* line 5, D:/Projects/htmlCSS/credit-locus/sass/layouts/_related-posts-section.sass */
 section.related-posts .related-post-content {
   width: 80%;
   margin: 0 auto;
   padding: 30px 0 50px;
 }
 
-/* line 8, D:/Projects/htmlCSS/credit-locus/sass/layouts/_related-posts-section.sass */
+/* line 9, D:/Projects/htmlCSS/credit-locus/sass/layouts/_related-posts-section.sass */
 section.related-posts .related-post-content .post-wrapper {
   margin-top: 40px;
 }
 
-/* line 11, D:/Projects/htmlCSS/credit-locus/sass/layouts/_related-posts-section.sass */
+/* line 12, D:/Projects/htmlCSS/credit-locus/sass/layouts/_related-posts-section.sass */
 section.related-posts .related-post-content h3 {
   margin-left: 5%;
   font-size: 1.5rem;
   margin-bottom: 15px;
 }
 
-/* line 15, D:/Projects/htmlCSS/credit-locus/sass/layouts/_related-posts-section.sass */
+/* line 16, D:/Projects/htmlCSS/credit-locus/sass/layouts/_related-posts-section.sass */
 section.related-posts .related-post-content hr {
   width: 90%;
 }

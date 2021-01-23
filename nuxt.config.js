@@ -4,7 +4,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'credit-locus',
+    title: 'Credit Locus',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -42,7 +42,8 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    {src: '~/plugins/VueFragment.js', ssr: false},
+    { src: '~/plugins/VueFragment.js', ssr: false },
+    { src: '~/plugins/localStorage.js', ssr: false },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -71,22 +72,6 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ['@nuxt/http','@nuxtjs/proxy'],
-  // firebase: {
-  //   config: {
-  //     apiKey: "AIzaSyDCeV_PocowDRqfX0C5qxYUKJik8CBLnKU",
-  //     authDomain: "credit-locus-landing.firebaseapp.com",
-  //     projectId: "credit-locus-landing",
-  //     storageBucket: "credit-locus-landing.appspot.com",
-  //     messagingSenderId: "751930680145",
-  //     appId: "1:751930680145:web:353987cba9e44d24ef6970",
-  //     measurementId: "G-DPE0CTE5RH"
-  //   },
-  //   services: {
-  //     firestore: {
-  //       memoryOnly: true,
-  //     },
-  //   }
-  // },
   optimizedImages: {
     optimizeImages: true,
     optimizeImagesInDev: true,
