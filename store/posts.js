@@ -24,7 +24,9 @@ export const state = () => ({
 
 export const getters = {
   getRelatedPosts: (state) => (slug) => {
-    return state.posts.filter((post) => post.slug !== slug)
+    let relatedPosts = state.posts.filter((post) => post.slug !== slug)
+    relatedPosts = relatedPosts.slice(0, 3)
+    return relatedPosts
   },
   getPostCategories: (state) => () => {
     const categories = []
