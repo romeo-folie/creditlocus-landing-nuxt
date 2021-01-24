@@ -1,16 +1,18 @@
 import * as Filters from '~/helpers/filters'
 
 // mutation types
-export const SET_POSTS = 'setPosts'
-export const SET_ACTIVE_POST = 'setActivePost'
-export const SET_RELATED_POSTS = 'setRelatedPosts'
-export const FILTER_POSTS = 'filterPosts'
-export const SET_CATEGORIES = 'setCategories'
+const SET_POSTS = 'setPosts'
+const SET_ACTIVE_POST = 'setActivePost'
+const SET_RELATED_POSTS = 'setRelatedPosts'
+const FILTER_POSTS = 'filterPosts'
+const SET_CATEGORIES = 'setCategories'
+const CLEAR_POST = 'clearPost'
 
 // action types
-export const GET_RELATED_POSTS = 'getRelatedPosts'
-export const FILTER_BLOGPOSTS = 'filterBlogposts'
-export const GET_CATEGORIES = 'getCategories'
+const GET_RELATED_POSTS = 'getRelatedPosts'
+const FILTER_BLOGPOSTS = 'filterBlogposts'
+const GET_CATEGORIES = 'getCategories'
+const FETCH_POST = 'fetchBlogPost'
 
 export const state = () => ({
   posts: [],
@@ -21,8 +23,8 @@ export const state = () => ({
 })
 
 export const getters = {
-  getRelatedPosts: (state) => () => {
-    return state.posts.filter((post) => post.slug !== state.post.slug)
+  getRelatedPosts: (state) => (slug) => {
+    return state.posts.filter((post) => post.slug !== slug)
   },
   getPostCategories: (state) => () => {
     const categories = []
@@ -36,6 +38,9 @@ export const getters = {
       })
     })
     return categories
+  },
+  getPostBySlug: (state) => (slug) => {
+    return state.posts.find((post) => post.slug === slug)
   },
 }
 
@@ -57,11 +62,14 @@ export const mutations = {
   [SET_CATEGORIES]: (state, payload) => {
     state.categories = payload
   },
+  [CLEAR_POST]: (state) => {
+    state.post = {}
+  },
 }
 
 export const actions = {
-  [GET_RELATED_POSTS]({ commit, getters }) {
-    const posts = getters.getRelatedPosts()
+  [GET_RELATED_POSTS]({ commit, getters }, slug) {
+    const posts = getters.getRelatedPosts(slug)
     commit(SET_RELATED_POSTS, posts)
   },
   [GET_CATEGORIES]({ commit, getters }) {
@@ -70,5 +78,20 @@ export const actions = {
   },
   [FILTER_BLOGPOSTS]({ commit }, filterObj) {
     commit(FILTER_POSTS, filterObj)
+  },
+  async [FETCH_POST]({ commit, dispatch, getters }, slug) {
+    commit(CLEAR_POST)
+    let post = getters.getPostBySlug(slug)
+    if (post) {
+      commit(SET_ACTIVE_POST, post)
+    } else {
+      const res = await this.$http.$get(
+        this.$config.baseURL + '/articles?slug=' + slug
+      )
+      post = res[0]
+      commit(SET_ACTIVE_POST, post)
+    }
+
+    dispatch(GET_RELATED_POSTS, post.slug)
   },
 }

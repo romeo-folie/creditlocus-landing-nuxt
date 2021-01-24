@@ -54,7 +54,6 @@ export default {
   methods: {
     searchPosts(e) {
       e.preventDefault()
-
       // call action here to filter blog posts
       // put search value and category values in an object and call the action
       this.$store.dispatch('posts/filterBlogposts', {

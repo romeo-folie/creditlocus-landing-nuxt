@@ -20,9 +20,6 @@ export default {
       posts: (state) => state.posts.relatedPosts,
     }),
   },
-  mounted() {
-    this.$store.dispatch('posts/getRelatedPosts')
-  },
 }
 </script>
 

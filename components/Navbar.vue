@@ -22,8 +22,8 @@
 
     <div class="right-items">
       <ul class="navlist">
-        <li><a class="nav-link" href="">Login</a></li>
-        <li><a id="sign-up-btn" href="">Sign up</a></li>
+        <li><a class="nav-link" href="#">Login</a></li>
+        <li><a id="sign-up-btn" href="#">Sign up</a></li>
       </ul>
     </div>
 
