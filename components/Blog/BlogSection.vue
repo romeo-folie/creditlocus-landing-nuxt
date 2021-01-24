@@ -15,13 +15,14 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
   name: 'BlogSection',
-  props: {
-    posts: {
-      type: Array,
-      default: () => [],
-    },
+  computed: {
+    ...mapState({
+      posts: (state) => state.posts.filteredPosts,
+    }),
   },
 }
 </script>
