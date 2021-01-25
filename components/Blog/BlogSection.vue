@@ -15,21 +15,14 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
   name: 'BlogSection',
-  props: {
-    posts: {
-      type: Array,
-      default: () => [],
-    },
-  },
-  mounted() {
-    this.savePosts()
-  },
-  methods: {
-    savePosts() {
-      this.$store.commit('posts/setPosts', this.posts)
-    },
+  computed: {
+    ...mapState({
+      posts: (state) => state.posts.filteredPosts,
+    }),
   },
 }
 </script>

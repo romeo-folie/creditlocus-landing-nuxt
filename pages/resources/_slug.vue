@@ -6,13 +6,21 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
-  async asyncData({ params, $http, $config }) {
-    const res = await $http.$get(
-      $config.baseURL + '/articles?slug=' + params.slug
-    )
-    const post = res[0]
-    return { post }
+  computed: {
+    ...mapState({
+      post: (state) => state.posts.post,
+    }),
+  },
+  mounted() {
+    this.getPost()
+  },
+  methods: {
+    getPost() {
+      this.$store.dispatch('posts/fetchBlogPost', this.$route.params.slug)
+    },
   },
 }
 </script>
