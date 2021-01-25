@@ -9,9 +9,38 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
+      { name: "msapplication-TileColor", content:"#603cba" },
+      { name: "msapplication-TileImage", content:"/favicon/mstile-150x150.png" },
+      { name: "theme-color", content:"#ffffff" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, 
+      { 
+        rel: 'icon', 
+        type: 'image/x-icon', 
+        href: '/favicon/favicon.ico' 
+      }, 
+      {
+        rel: "mask-icon", 
+        href: "/favicon/safari-pinned-tab.svg",
+        color: "#5bbad5"
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon/favicon-16x16.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon/favicon-32x32.png',
+      },
+      {
+        rel: "apple-touch-icon", 
+        sizes: "114x114", 
+        href: "/favicon/apple-touch-icon.png"
+      },
       {
         rel: 'preload',
         as: 'font',
