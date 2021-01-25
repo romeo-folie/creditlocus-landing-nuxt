@@ -1,3 +1,4 @@
+/* eslint-disable */
 import * as Filters from '~/helpers/filters'
 
 // mutation types

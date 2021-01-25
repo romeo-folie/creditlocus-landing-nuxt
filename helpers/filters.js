@@ -1,3 +1,4 @@
+/* eslint-disable */
 export function filterPosts(filterObj, posts) {
   let filteredPosts = [...posts]
 

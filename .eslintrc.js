@@ -23,5 +23,6 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    "array-callback-return": "off",
   },
 }
