@@ -35,3 +35,25 @@ export function filterPosts(filterObj, posts) {
 
   return filteredPosts
 }
+
+// export async function fetchPage (opts) {
+//   var indexStart = opts.page * opts.pageSize - opts.pageSize
+
+//   let randomWaitTime = Math.floor(Math.random() * 5000)
+//   await sleep(randomWaitTime)
+
+//   let query = opts.args.query ? opts.args.query : ''
+
+//   let filteredData = data.filter((license) => license.name.toLowerCase().includes(query.toLowerCase()))
+
+//   return {
+//     total: filteredData.length,
+//     data: filteredData.slice(indexStart, indexStart + opts.pageSize)
+//   }
+// }
+
+// function sleep (ms) {
+//   return new Promise((resolve) => {
+//     setTimeout(resolve, ms)
+//   })
+// }

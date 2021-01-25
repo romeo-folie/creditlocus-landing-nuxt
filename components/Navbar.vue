@@ -3,7 +3,7 @@
     <div class="left-items">
       <div class="brand">
         <a href="/">
-          <img src="/images/brand.svg" alt="credit locus logo" />
+          <img src="/images/credit-locus-logo.png" alt="credit locus logo" />
         </a>
       </div>
 
