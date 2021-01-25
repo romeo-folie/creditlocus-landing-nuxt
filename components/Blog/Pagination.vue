@@ -12,6 +12,11 @@
 <script>
 export default {
   name: 'Pagination',
+  data() {
+    return {
+      page: 1,
+    }
+  },
 }
 </script>
 
