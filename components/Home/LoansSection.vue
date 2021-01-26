@@ -1,7 +1,7 @@
 <template>
   <section id="how-it-works" class="loans">
     <div class="loans-content">
-      <div class="text-left">
+      <div class="text-left" data-aos="fade-up">
         <h3>
           Repay your loans automatically via your mobile wallets or debit cards.
         </h3>
@@ -20,7 +20,7 @@
         </div>
       </div>
 
-      <div class="image-right">
+      <div class="image-right" data-aos="flip-right">
         <div class="card-bg">
           <img src="/images/card-group.png" alt="Transaction Cards" />
         </div>

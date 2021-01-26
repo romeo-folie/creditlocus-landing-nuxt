@@ -1,7 +1,7 @@
 <template>
   <section class="offer">
     <div class="offer-content">
-      <div class="amt-card-left">
+      <div class="amt-card-left" data-aos="fade-right" data-aos-duration="1500">
         <div class="amt-card-bg">
           <div class="amt-card">
             <div class="amt-card-content">
@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <div class="text-right">
+      <div class="text-right" data-aos="fade-up">
         <h3>
           Get a customized offer based on our revenue trends, and then choose
           your loan size.

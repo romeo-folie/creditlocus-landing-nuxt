@@ -73,9 +73,9 @@ export default {
 
 <style scoped>
 .slide-in-top {
-  -webkit-animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
+  -webkit-animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.3s
     both;
-  animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
+  animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.3s both;
 }
 
 .fade-in-top {
@@ -85,9 +85,9 @@ export default {
 }
 
 .scale-in-hor-center {
-  -webkit-animation: scale-in-hor-center 0.8s
+  -webkit-animation: scale-in-hor-center 0.5s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
-  animation: scale-in-hor-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
+  animation: scale-in-hor-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
     both;
 }
 
