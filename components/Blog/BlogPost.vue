@@ -1,7 +1,7 @@
 <template>
   <div class="post">
     <div class="image-container">
-      <img src="/images/carousel/7.jpg" alt="" />
+      <img :src="postImage" :alt="postImageAlt" />
     </div>
     <div class="text-container">
       <div class="line-one">
@@ -32,7 +32,20 @@ export default {
   props: {
     post: {
       type: Object,
+      required: true,
       default: () => {},
+    },
+  },
+  computed: {
+    postImage() {
+      return this.post.image.length
+        ? this.post.image[0].url
+        : '/images/carousel/10.jpg'
+    },
+    postImageAlt() {
+      return this.post.image.length
+        ? this.post.image[0].name
+        : 'Default blogpost image'
     },
   },
 }
