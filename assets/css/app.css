@@ -2355,12 +2355,16 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
     text-align: center;
   }
   /* line 61, D:/Projects/htmlCSS/credit-locus/sass/layouts/_footer.sass */
+  footer.bottom-nav .bottom-nav-content .final-line span {
+    font-size: 1rem;
+  }
+  /* line 63, D:/Projects/htmlCSS/credit-locus/sass/layouts/_footer.sass */
   footer.bottom-nav .bottom-nav-content .final-line .social-media {
     width: unset;
     justify-content: center;
     margin-top: 20px;
   }
-  /* line 65, D:/Projects/htmlCSS/credit-locus/sass/layouts/_footer.sass */
+  /* line 67, D:/Projects/htmlCSS/credit-locus/sass/layouts/_footer.sass */
   footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of-type) {
     margin-right: 15px;
   }
