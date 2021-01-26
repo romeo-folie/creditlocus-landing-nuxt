@@ -5,7 +5,11 @@
       <h3>{{ post.title }}</h3>
       <div id="category">{{ post.categories[0].name.toUpperCase() }}</div>
 
-      <img src="/images/carousel/6.jpg" alt="Headline Image" />
+      <img
+        v-if="post.image.length > 0"
+        :src="post.image[0].url"
+        :alt="post.image[0].name"
+      />
 
       <div class="article-wrapper">
         <article>
