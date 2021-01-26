@@ -13,8 +13,8 @@ export default {
 <style scoped>
 .scale-in-ver-center {
   -webkit-animation: scale-in-ver-center 0.2s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.4s both;
-  animation: scale-in-ver-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.4s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
+  animation: scale-in-ver-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
     both;
 }
 

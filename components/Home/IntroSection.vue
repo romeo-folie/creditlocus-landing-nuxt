@@ -1,7 +1,7 @@
 <template>
   <section class="intro">
     <div class="intro-content">
-      <div class="text-left fade-in-left">
+      <div class="text-left fade-in-fwd">
         <h2>
           Money to keep
           <br />
@@ -68,15 +68,22 @@ export default {
 
 <style scoped>
 .slide-in-bottom {
-  -webkit-animation: slide-in-bottom 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
+  -webkit-animation: slide-in-bottom 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    1.3s both;
+  animation: slide-in-bottom 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 1.3s
     both;
-  animation: slide-in-bottom 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
 }
 
 .fade-in-left {
   -webkit-animation: fade-in-left 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s
     both;
   animation: fade-in-left 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
+}
+
+.fade-in-fwd {
+  -webkit-animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s
+    both;
+  animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
 }
 
 @-webkit-keyframes slide-in-bottom {
@@ -125,6 +132,31 @@ export default {
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
     opacity: 1;
   }
 }
