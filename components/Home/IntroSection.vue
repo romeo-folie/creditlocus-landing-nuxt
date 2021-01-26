@@ -1,7 +1,7 @@
 <template>
   <section class="intro">
     <div class="intro-content">
-      <div class="text-left">
+      <div class="text-left fade-in-left">
         <h2>
           Money to keep
           <br />
@@ -20,7 +20,7 @@
       </div>
 
       <div class="image-right">
-        <img src="/images/rocket1x.png" alt="rocket" />
+        <img class="slide-in-bottom" src="/images/rocket1x.png" alt="rocket" />
       </div>
     </div>
   </section>
@@ -50,14 +50,82 @@ export default {
             this.$store.dispatch('notifications/showSuccessAlert', res.email)
           })
           .catch((e) => {
-            this.$store.dispatch('notifications/showErrorAlert', 'Failed to add email')
+            this.$store.dispatch(
+              'notifications/showErrorAlert',
+              'Failed to add email'
+            )
           })
       } else {
-        this.$store.dispatch('notifications/showErrorAlert', 'Please enter a valid email first')
+        this.$store.dispatch(
+          'notifications/showErrorAlert',
+          'Please enter a valid email first'
+        )
       }
     },
   },
 }
 </script>
 
-<style></style>
+<style scoped>
+.slide-in-bottom {
+  -webkit-animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
+    both;
+  animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
+}
+
+.fade-in-left {
+  -webkit-animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s
+    both;
+  animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+}
+
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+</style>

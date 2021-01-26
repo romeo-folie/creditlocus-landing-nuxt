@@ -1,14 +1,10 @@
 <template>
   <div class="approval-item">
-    <img src="/images/approval/2.png" alt="" />
+    <img :src="item.image" alt="approval icon" />
     <div class="text-container">
-      <h4>Zero paperwork required.</h4>
+      <h4>{{ item.title }}</h4>
       <p>
-        You'll usually know if
-        <br />
-        you're approved right
-        <br />
-        away
+        {{ item.subtext }}
       </p>
     </div>
   </div>
@@ -17,6 +13,13 @@
 <script>
 export default {
   name: 'ApprovalItem',
+  props: {
+    item: {
+      type: Object,
+      required: true,
+      default: () => ({}),
+    },
+  },
 }
 </script>
 

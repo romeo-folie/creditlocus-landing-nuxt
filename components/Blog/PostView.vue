@@ -30,7 +30,7 @@ export default {
     post: {
       type: Object,
       required: true,
-      default: () => {},
+      default: () => ({}),
     },
   },
 }
