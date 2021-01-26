@@ -68,15 +68,15 @@ export default {
 
 <style scoped>
 .slide-in-bottom {
-  -webkit-animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
+  -webkit-animation: slide-in-bottom 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
     both;
-  animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
+  animation: slide-in-bottom 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
 }
 
 .fade-in-left {
-  -webkit-animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s
+  -webkit-animation: fade-in-left 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s
     both;
-  animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+  animation: fade-in-left 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
 }
 
 @-webkit-keyframes slide-in-bottom {

@@ -1,17 +1,23 @@
 <template>
   <section class="blog">
     <div class="blog-content">
-      <h3>Resources</h3>
+      <h3 class="fade-in-top">Resources</h3>
 
-      <filter-bar />
+      <filter-bar class="fade-in-top" />
 
       <div class="post-wrapper">
-        <blog-post v-for="post in posts" :key="post.id" :post="post" />
+        <blog-post
+          v-for="post in posts"
+          :key="post.id"
+          class="scale-in-hor-center"
+          :post="post"
+        />
       </div>
 
       <button
         v-if="allPosts.length > limit"
         id="see-more"
+        class="slide-in-top"
         @click="loadMorePosts"
       >
         See more
@@ -65,4 +71,97 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.slide-in-top {
+  -webkit-animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
+    both;
+  animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
+}
+
+.fade-in-top {
+  -webkit-animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s
+    both;
+  animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s both;
+}
+
+.scale-in-hor-center {
+  -webkit-animation: scale-in-hor-center 0.8s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
+  animation: scale-in-hor-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
+    both;
+}
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+</style>
