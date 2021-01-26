@@ -2158,7 +2158,6 @@ section.company-info .company-info-content h5 {
 .side-menu {
   height: 100vh;
   width: 65vw;
-  z-index: 15;
   background-color: #fff;
   position: fixed;
   right: 0;
@@ -2166,6 +2165,9 @@ section.company-info .company-info-content h5 {
   bottom: 0;
   display: none;
   z-index: 350;
+  -webkit-box-shadow: 0px 10px 11px -1px rgba(31, 17, 123, 0.1);
+  -moz-box-shadow: 0px 10px 11px -1px rgba(31, 17, 123, 0.1);
+  box-shadow: 0px 10px 11px -1px rgba(31, 17, 123, 0.1);
 }
 
 /* line 12, D:/Projects/htmlCSS/credit-locus/sass/layouts/_aside.sass */
@@ -2200,7 +2202,7 @@ section.company-info .company-info-content h5 {
 /* line 30, D:/Projects/htmlCSS/credit-locus/sass/layouts/_aside.sass */
 .side-menu .aside-content-wrapper .side-navbar ul li a {
   color: #372865;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
 }
 
 /* line 33, D:/Projects/htmlCSS/credit-locus/sass/layouts/_aside.sass */
