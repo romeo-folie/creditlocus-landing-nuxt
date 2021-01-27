@@ -175,28 +175,29 @@ body .overlay .close-btn {
 }
 
 /* line 42, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
-body .overlay .close-btn a img {
+body .overlay .close-btn a svg {
   height: 20px;
   width: 20px;
   z-index: 200;
+  stroke: #372865;
 }
 
-/* line 47, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 48, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 50, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 51, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 h2, h3 {
   font-family: 'Matter';
 }
 
-/* line 53, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 54, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 button {
   font-family: 'DM Sans';
 }
 
-/* line 56, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 57, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 ul {
   list-style: none;
   text-decoration: none;
@@ -204,7 +205,7 @@ ul {
   padding: 0;
 }
 
-/* line 62, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 63, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a {
   display: flex;
   align-items: center;
@@ -214,17 +215,17 @@ a {
   font-weight: 700;
 }
 
-/* line 69, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 70, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a:focus {
   outline: none;
 }
 
-/* line 71, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 72, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a:active {
   color: #372865;
 }
 
-/* line 74, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 75, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 section {
   width: 100%;
   min-height: 100vh;
@@ -234,7 +235,7 @@ section {
 }
 
 @media screen and (min-width: 1280px) {
-  /* line 85, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  /* line 86, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
     top: 31%;
     right: 12%;
@@ -1011,7 +1012,7 @@ section.cash-flow .cash-flow-content .text-and-photo .right img {
 
 /* line 21, D:/Projects/htmlCSS/credit-locus/sass/layouts/_cash-flow-section.sass */
 section.cash-flow .cash-flow-content p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #ffffff;
   text-align: center;
   font-weight: 400;
