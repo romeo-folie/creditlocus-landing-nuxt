@@ -10,6 +10,12 @@ export const state = () => ({
   user: '',
 })
 
+export const getters = {
+  getLastUser: (state) => {
+    return state.user
+  },
+}
+
 export const mutations = {
   [SET_USER]: (state, payload) => {
     state.user = payload
@@ -17,9 +23,10 @@ export const mutations = {
 }
 
 export const actions = {
-  [ADD_USER] ({ commit }, userObj) {
+  [ADD_USER]({ commit }, userObj) {
     return new Promise((resolve, reject) => {
-      this.$http.$post('https://credit-locus-api.herokuapp.com/subscribers', userObj)
+      this.$http
+        .$post('https://credit-locus-api.herokuapp.com/subscribers', userObj)
         .then((res) => {
           commit(SET_USER, res.email)
           resolve(res)

@@ -28,6 +28,8 @@
 
 <script>
 /* eslint-disable */
+import { mapGetters } from 'vuex'
+
 export default {
   name: 'IntroSection',
   data: () => {
@@ -38,18 +40,30 @@ export default {
       showErrorAlert: false,
     }
   },
+  computed: {
+    ...mapGetters({
+      user: 'users/getLastUser',
+    }),
+  },
   methods: {
     saveUser(e) {
       e.preventDefault()
+
+      if(this.email == this.user){
+        this.$store.dispatch('notifications/showErrorAlert', 'Email already added')
+        return
+      }
 
       if (this.email.length > 0 && this.email.match(this.mailFormat)) {
         this.$store
           .dispatch('users/addUser', { email: this.email })
           .then((res) => {
             this.email = ''
+            this.$store.commit('users/setUser', res.email)
             this.$store.dispatch('notifications/showSuccessAlert', res.email)
           })
           .catch((e) => {
+            console.log('error ', e)
             this.$store.dispatch(
               'notifications/showErrorAlert',
               'Failed to add email'

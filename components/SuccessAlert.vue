@@ -8,7 +8,9 @@
 
     <div class="alert-content">
       <div class="alert-title">Success</div>
-      <div class="alert-description">{{ email }} added successfully</div>
+      <div class="alert-description">
+        {{ email || 'User' }} added successfully
+      </div>
     </div>
   </div>
 </template>
