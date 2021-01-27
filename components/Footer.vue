@@ -5,8 +5,8 @@
         <div class="column">
           <h4>Solutions</h4>
           <a href="#">Open an account</a>
-          <a href="/#how-it-works">How it works</a>
-          <a href="/resources">Resources</a>
+          <nuxt-link to="/#how-it-works">How it works</nuxt-link>
+          <nuxt-link to="/resources">Resources</nuxt-link>
         </div>
 
         <div class="column">
