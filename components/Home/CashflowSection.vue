@@ -2,7 +2,7 @@
   <section class="cash-flow">
     <div class="cash-flow-content">
       <div class="text-and-photo">
-        <div class="left" data-aos="zoom-in-right">
+        <div class="left" data-aos="zoom-in">
           <h3>Power up your business with cash flow support.</h3>
           <img
             src="/images/cf-small.jpg"

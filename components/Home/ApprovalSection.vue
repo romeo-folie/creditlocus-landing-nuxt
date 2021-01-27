@@ -1,7 +1,7 @@
 <template>
   <section class="approval">
     <div class="approval-content">
-      <h3 data-aos="fade-down">
+      <h3>
         Get approved instantly, and
         <br />
         get on with your business.
