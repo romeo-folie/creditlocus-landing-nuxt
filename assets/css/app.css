@@ -482,7 +482,7 @@ section.intro .intro-content .image-right img {
   }
   /* line 85, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   /* line 87, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input {
@@ -518,7 +518,7 @@ section.intro .intro-content .image-right img {
   }
   /* line 114, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -529,7 +529,7 @@ section.intro .intro-content .image-right img {
   }
   /* line 123, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
   }
   /* line 126, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
@@ -548,7 +548,7 @@ section.intro .intro-content .image-right img {
   }
   /* line 138, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
   }
   /* line 141, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
@@ -568,7 +568,7 @@ section.intro .intro-content .image-right img {
   }
   /* line 154, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   /* line 157, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
@@ -727,7 +727,7 @@ section.offer .offer-content .text-right p {
   }
   /* line 92, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right {
-    margin: 50px 0;
+    margin-top: 50px;
     text-align: center;
   }
 }
@@ -905,67 +905,69 @@ section.loans .loans-content .video-container .video-content iframe {
   }
   /* line 89, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .image-right {
+    margin-bottom: 50px;
     width: 100%;
   }
-  /* line 91, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 92, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .image-right .card-bg {
     margin: 0 auto;
     width: 90%;
   }
-  /* line 94, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 95, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .image-right .card-bg img {
     height: 90%;
     width: auto;
     margin: 0 auto;
     display: flex;
   }
-  /* line 99, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 100, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .text-left {
     margin-bottom: 30px;
+    margin-top: 50px;
     text-align: center;
   }
-  /* line 102, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 104, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .text-left .payment, section.loans .loans-content .text-left .play-video {
     justify-content: center;
   }
 }
 
 @media screen and (max-width: 600px) {
-  /* line 110, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 112, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .image-right .card-bg {
     margin: 0 auto;
     width: 100%;
   }
-  /* line 113, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 115, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .image-right .card-bg img {
     height: 85%;
   }
-  /* line 116, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 118, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .text-left h3 {
     font-size: 2.2rem;
   }
-  /* line 120, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 122, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .text-left .play-video .play-cont span {
     font-size: 1.4rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 126, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 128, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .text-left {
     max-width: 50%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  /* line 133, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 135, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .video-container {
     width: 80%;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 139, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 141, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content h3 {
     font-size: 3.0rem;
   }
@@ -2165,7 +2167,7 @@ section.company-info .company-info-content h5 {
 /* line 1, D:/Projects/htmlCSS/credit-locus/sass/layouts/_aside.sass */
 .side-menu {
   height: 100vh;
-  background-color: #fff;
+  background-color: #372865;
   position: fixed;
   width: 0;
   right: -50px;
@@ -2210,7 +2212,7 @@ section.company-info .company-info-content h5 {
 
 /* line 31, D:/Projects/htmlCSS/credit-locus/sass/layouts/_aside.sass */
 .side-menu .aside-content-wrapper .side-navbar ul li a {
-  color: #372865;
+  color: #fff;
   font-size: 1.0rem;
 }
 
@@ -2241,7 +2243,7 @@ section.company-info .company-info-content h5 {
 .side-menu.show {
   visibility: initial;
   right: 0;
-  width: 65vw;
+  width: 100vw;
 }
 
 @media screen and (min-width: 640px) {

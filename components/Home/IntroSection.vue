@@ -75,15 +75,15 @@ export default {
 }
 
 .fade-in-left {
-  -webkit-animation: fade-in-left 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s
+  -webkit-animation: fade-in-left 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.8s
     both;
-  animation: fade-in-left 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
+  animation: fade-in-left 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.8s both;
 }
 
 .fade-in-fwd {
-  -webkit-animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s
+  -webkit-animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.8s
     both;
-  animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
+  animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.8s both;
 }
 
 @-webkit-keyframes slide-in-bottom {
