@@ -4,22 +4,22 @@
       <div class="link-grid">
         <div class="column">
           <h4>Solutions</h4>
-          <a href="">Open an account</a>
-          <a href="">How it works</a>
-          <a href="">Resources</a>
+          <a href="#">Open an account</a>
+          <a href="/#how-it-works">How it works</a>
+          <a href="/resources">Resources</a>
         </div>
 
         <div class="column">
           <h4>Company</h4>
-          <a href="">About</a>
-          <a href="">Careers</a>
-          <a href="">Press</a>
+          <nuxt-link to="/about">About</nuxt-link>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
         </div>
 
         <div class="column">
           <h4>Legal</h4>
-          <a href="">Privacy Policy</a>
-          <a href="">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
         </div>
       </div>
 
@@ -32,10 +32,10 @@
         </div>
 
         <div class="social-media">
-          <img src="/icons/facebook.svg" alt="" />
-          <img src="/icons/twitter.svg" alt="" />
-          <img src="/icons/instagram.svg" alt="" />
-          <img src="/icons/linkedin.svg" alt="" />
+          <img src="/icons/facebook.svg" alt="facebook_icon" />
+          <img src="/icons/twitter.svg" alt="twitter_icon" />
+          <img src="/icons/instagram.svg" alt="instagram_icon" />
+          <img src="/icons/linkedin.svg" alt="linkedin_icon" />
         </div>
       </div>
     </div>

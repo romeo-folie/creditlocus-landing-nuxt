@@ -17,9 +17,9 @@
 
       <p data-aos="fade-up">
         Get access to personalized loan offers that provide just the right
-        bugger for your cash
+        bugger for your cash flow.
         <br />
-        flow. It takes 2 minutes to fully set up your business on Credit Locus.
+        It takes 2 minutes to fully set up your business on Credit Locus.
       </p>
     </div>
   </section>
