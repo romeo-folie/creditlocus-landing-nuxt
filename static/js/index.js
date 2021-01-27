@@ -54,7 +54,7 @@ function showVideo(){
   const videoContainer = document.getElementById('vid-cont')
 
   overlay.style.display = 'block'
-  videoContainer.style.display = 'block'
+  videoContainer.style.visibility = 'initial'
 }
 
 function hideVideo(){
@@ -62,5 +62,5 @@ function hideVideo(){
   const videoContainer = document.getElementById('vid-cont')
 
   overlay.style.display = 'none'
-  videoContainer.style.display = 'none'
+  videoContainer.style.visibility = 'hidden'
 }

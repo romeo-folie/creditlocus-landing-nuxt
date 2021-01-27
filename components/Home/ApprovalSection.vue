@@ -1,7 +1,7 @@
 <template>
   <section class="approval">
     <div class="approval-content">
-      <h3>
+      <h3 data-aos="fade-down">
         Get approved instantly, and
         <br />
         get on with your business.
@@ -11,6 +11,7 @@
         <approval-item
           v-for="(item, index) in items"
           :key="index"
+          data-aos="slide-up"
           :item="item"
         />
       </div>

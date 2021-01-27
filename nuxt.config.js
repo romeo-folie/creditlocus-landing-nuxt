@@ -105,7 +105,7 @@ export default {
   modules: ['@nuxt/http','@nuxtjs/proxy'],
   optimizedImages: {
     optimizeImages: true,
-    optimizeImagesInDev: true,
+    optimizeImagesInDev: false,
   },
   http: {
     proxy: true, 
