@@ -49,7 +49,7 @@ export default {
   data() {
     return {
       increment: 3,
-      limit: 3,
+      limit: 6,
     }
   },
   computed: {

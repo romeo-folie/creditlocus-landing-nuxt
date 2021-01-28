@@ -3,10 +3,12 @@
     <div class="post-content">
       <nuxt-link id="back" to="/resources">Back</nuxt-link>
       <h3>{{ post.title }}</h3>
-      <div id="category">{{ post.categories[0].name.toUpperCase() }}</div>
+      <div id="category">
+        {{ post.categories[0].name.toUpperCase() }}
+      </div>
 
       <img
-        v-if="post.image.length > 0"
+        v-if="post.image.length"
         :src="post.image[0].url"
         :alt="post.image[0].name"
       />
