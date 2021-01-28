@@ -102,7 +102,11 @@ export default {
   ],  
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxt/http','@nuxtjs/proxy'],
+  modules: ['@nuxt/http','@nuxtjs/proxy','@nuxtjs/markdownit'],
+  markdownit: {
+    injected: true,
+    html: false,
+  },
   optimizedImages: {
     optimizeImages: true,
     optimizeImagesInDev: false,

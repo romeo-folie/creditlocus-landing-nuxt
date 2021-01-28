@@ -7,8 +7,8 @@
         and entrepreneurs. Tools that erase the headache of seeking financing to
         power up businesses so people will have no limitation in pursuing an
         idea and making a living from it.
-        <!-- <br />
-        <br /> -->
+        <br />
+        <br />
         We acknowledge how difficult it is to keep a business going, so we’re
         here to play our part by providing smart credit that meet your business
         needs through a process that is quick, easy and painless. When you

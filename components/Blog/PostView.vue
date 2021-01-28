@@ -14,9 +14,10 @@
       />
 
       <div class="article-wrapper">
-        <article>
-          {{ post.content }}
-        </article>
+        <article
+          v-if="post.content"
+          v-html="$md.render(post.content.toString())"
+        ></article>
         <!-- <div id="ad">
           <img src="" alt="" />
         </div> -->
