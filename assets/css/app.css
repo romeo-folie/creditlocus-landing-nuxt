@@ -492,7 +492,7 @@ section.intro .intro-content .image-right img {
 @media screen and (max-width: 599px) {
   /* line 84, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
   /* line 86, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
@@ -716,7 +716,7 @@ section.offer .offer-content .text-right h3 {
 
 /* line 73, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
 section.offer .offer-content .text-right p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #5F626F;
 }
@@ -1056,7 +1056,7 @@ section.cash-flow .cash-flow-content p {
   }
   /* line 49, D:/Projects/htmlCSS/credit-locus/sass/layouts/_cash-flow-section.sass */
   section.cash-flow .cash-flow-content p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -1268,43 +1268,45 @@ section.faq .faq-content .accordion-container .panel p {
   margin: 0;
   margin-bottom: 20px;
   font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: .6px;
   color: #909ABB;
   text-align: left;
 }
 
-/* line 60, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+/* line 62, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
 section.faq .faq-content p {
   margin: 40px 0;
   font-size: 1.1rem;
 }
 
-/* line 63, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+/* line 65, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
 section.faq .faq-content p span {
   font-weight: 500;
   color: #5F8FBE;
 }
 
 @media screen and (max-width: 1060px) {
-  /* line 71, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 73, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content {
     padding: 100px 0;
   }
-  /* line 73, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 75, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content .accordion-container {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 640px) {
-  /* line 79, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 81, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content h3 {
     font-size: 2.2rem;
   }
-  /* line 82, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 84, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content .accordion-container .accordion {
     font-size: 1.0rem;
   }
-  /* line 85, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 87, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content .accordion-container .panel p {
     font-size: 1.0rem;
   }
@@ -1835,7 +1837,7 @@ section.post .post-content {
 
 /* line 8, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
 section.post .post-content a#back {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   float: left;
   width: 100%;
   margin: 0 auto 20px;
@@ -1884,11 +1886,13 @@ section.post .post-content .article-wrapper {
 
 /* line 39, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
 section.post .post-content .article-wrapper article {
-  font-size: 1.2rem;
-  width: 70%;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  letter-spacing: .6px;
+  width: 100%;
 }
 
-/* line 42, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
+/* line 44, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
 section.post .post-content .article-wrapper div#ad {
   width: 25%;
   height: 480px;
@@ -1896,20 +1900,20 @@ section.post .post-content .article-wrapper div#ad {
 }
 
 @media screen and (max-width: 640px) {
-  /* line 50, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
+  /* line 52, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
   section.post .post-content h3 {
     font-size: 2.1rem;
   }
-  /* line 52, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
+  /* line 54, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
   section.post .post-content .article-wrapper {
     display: block;
   }
-  /* line 54, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
+  /* line 56, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
   section.post .post-content .article-wrapper article {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 57, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
+  /* line 59, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
   section.post .post-content .article-wrapper div#ad {
     width: 100%;
     height: 120px;
@@ -1917,15 +1921,15 @@ section.post .post-content .article-wrapper div#ad {
 }
 
 @media screen and (min-width: 1280px) {
-  /* line 65, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
+  /* line 67, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
   section.post .post-content h3 {
     width: 50%;
   }
-  /* line 67, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
+  /* line 69, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
   section.post .post-content img {
     width: 80%;
   }
-  /* line 69, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
+  /* line 71, D:/Projects/htmlCSS/credit-locus/sass/layouts/_article-section.sass */
   section.post .post-content .article-wrapper {
     width: 80%;
   }

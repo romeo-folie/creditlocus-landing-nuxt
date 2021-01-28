@@ -49,8 +49,10 @@ export default {
     saveUser(e) {
       e.preventDefault()
 
-      if(this.email == this.user){
-        this.$store.dispatch('notifications/showErrorAlert', 'Email already added')
+      if(this.email.length && this.user.length){
+        if(this.email === this.user){
+          this.$store.dispatch('notifications/showErrorAlert', 'Email already added')
+        }
         return
       }
 

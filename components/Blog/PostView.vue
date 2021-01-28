@@ -17,9 +17,9 @@
         <article>
           {{ post.content }}
         </article>
-        <div id="ad">
+        <!-- <div id="ad">
           <img src="" alt="" />
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
