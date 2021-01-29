@@ -49,11 +49,14 @@ export default {
     saveUser(e) {
       e.preventDefault()
 
-      if(this.email.length && this.user.length){
-        if(this.email === this.user){
-          this.$store.dispatch('notifications/showErrorAlert', 'Email already added')
+      if (this.email.length && this.user.length) {
+        if (this.email === this.user) {
+          this.$store.dispatch(
+            'notifications/showErrorAlert',
+            'Email already added'
+          )
+          return
         }
-        return
       }
 
       if (this.email.length > 0 && this.email.match(this.mailFormat)) {
@@ -85,9 +88,8 @@ export default {
 <style scoped>
 .slide-in-bottom {
   -webkit-animation: slide-in-bottom 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86)
-    1.3s both;
-  animation: slide-in-bottom 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 1.3s
-    both;
+    2s both;
+  animation: slide-in-bottom 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 2s both;
 }
 
 .fade-in-left {
@@ -97,9 +99,8 @@ export default {
 }
 
 .fade-in-fwd {
-  -webkit-animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.8s
-    both;
-  animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.8s both;
+  -webkit-animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
+  animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
 }
 
 @-webkit-keyframes slide-in-bottom {
