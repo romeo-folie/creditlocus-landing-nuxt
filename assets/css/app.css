@@ -2281,7 +2281,7 @@ section.company-info .company-info-content h5 {
   width: 100vw;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 680px) {
   /* line 57, D:/Projects/htmlCSS/credit-locus/sass/layouts/_aside.sass */
   .side-menu {
     display: none;
