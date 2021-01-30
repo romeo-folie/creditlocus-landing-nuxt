@@ -1,7 +1,10 @@
 <template>
   <section class="statements">
     <div class="statement-content">
-      <h3>About Us</h3>
+      <h3>
+        We believe that Africa's growth lies in hands of small businesses, and
+        we're here to help fuel that growth journey.
+      </h3>
       <p>
         We’re building easy tools to empower and enrich small business owners
         and entrepreneurs. Tools that erase the headache of seeking financing to

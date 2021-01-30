@@ -26,7 +26,7 @@ export const actions = {
   [ADD_USER]({ commit }, userObj) {
     return new Promise((resolve, reject) => {
       this.$http
-        .$post('https://credit-locus-api.herokuapp.com/subscribers', userObj)
+        .$post(this.$config.baseURL + '/subscribers', userObj)
         .then((res) => {
           commit(SET_USER, res.email)
           resolve(res)

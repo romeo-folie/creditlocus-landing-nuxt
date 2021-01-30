@@ -57,7 +57,7 @@ export default {
       },
       {
         rel: 'preconnect',
-        href: 'https://credit-locus-blog.herokuapp.com',
+        href: 'https://annular-system-303211.uc.r.appspot.com',
         crossorigin: true,
       },
     ],
@@ -117,7 +117,7 @@ export default {
   },
   proxy: {
     '/api/': {
-      target: 'https://credit-locus-api.herokuapp.com',
+      target: 'https://annular-system-303211.uc.r.appspot.com',
       pathRewrite: { '^/api/': '' }
     }
   },
