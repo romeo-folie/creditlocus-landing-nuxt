@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="708" height="131.222" viewBox="0 0 708 131.222">
+  <defs>
+    <rect id="rect-1" width="164.722" height="131.222" x="0" y="0"/>
+    <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="708" height="131.222" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-1"/>
+    </mask>
+  </defs>
+  <g>
+    <g>
+      <use fill="none" xlink:href="#rect-1"/>
+      <g mask="url(#mask-2)">
+        <g opacity=".6">
+          <ellipse cx="65.407" cy="65.407" fill="rgb(255,0,110)" rx="37.5" ry="55" transform="rotate(45.000032 65.40737726 65.40684373)"/>
+        </g>
+        <g opacity=".6">
+          <ellipse cx="99.315" cy="65.815" fill="rgb(58,134,255)" rx="37.5" ry="55" transform="rotate(-45.000032 99.31510168 65.81475452)"/>
+        </g>
+      </g>
+    </g>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="179" y="99.611" fill="rgb(67,69,111)" font-family="DM Sans" font-size="100" font-weight="700" style="white-space:pre;text-transform:none" letter-spacing="-2.198">creditlocus</tspan>
+    </text>
+  </g>
+</svg>

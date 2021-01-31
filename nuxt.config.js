@@ -61,13 +61,14 @@ export default {
         crossorigin: true,
       },
     ],
-    script: [{ src: '/js/index.js', body: true }],
+    script: [{ src: '/js/index.js', body: true },],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '~/assets/css/app.css',
     'aos/dist/aos.css',
+    '~/assets/css/tinyslider.min.css'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -75,6 +76,7 @@ export default {
     { src: '@/plugins/aos.js', ssr: false },
     { src: '~/plugins/VueFragment.js', ssr: false },
     { src: '~/plugins/localStorage.js', ssr: false },
+    { src: '~/plugins/vue-tiny-slider.js', mode: 'client' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

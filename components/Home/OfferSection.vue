@@ -61,11 +61,11 @@ export default {
     amount(val) {
       if (val === 4000) {
         clearInterval(this.interval)
+        // window.removeEventListener('scroll')
       }
     },
   },
   created() {
-    // window.addEventListener('scroll', this.incrementAmount)
     this.incrementAmount()
   },
   // beforeMount() {

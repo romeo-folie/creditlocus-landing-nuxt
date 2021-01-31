@@ -17,6 +17,7 @@
     "core-js": "^3.6.5",
     "nuxt": "^2.14.8",
     "vue-fragment": "^1.5.1",
+    "vue-tiny-slider": "^0.1.39",
     "vuex-persistedstate": "^4.0.0-beta.3"
   },
   "devDependencies": {
