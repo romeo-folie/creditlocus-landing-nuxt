@@ -12,7 +12,7 @@
         :src="post.image[0].url"
         :alt="post.image[0].name"
       />
-
+      <!-- eslint-disable vue/no-v-html -->
       <div class="article-wrapper">
         <article
           v-if="post.content"

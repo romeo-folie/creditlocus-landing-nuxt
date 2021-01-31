@@ -9,7 +9,7 @@
               <h3>GHC {{ amount }}</h3>
               <input
                 id="amount-range"
-                :value="amount"
+                v-model="amount"
                 type="range"
                 min="0"
                 max="4000"
@@ -40,43 +40,45 @@
 </template>
 
 <script>
-// import { mapState } from 'vuex'
-
 export default {
   name: 'OfferSection',
   data() {
     return {
       fee: 400,
-      amount: 4000,
-      step: 100,
+      amount: 0,
+      step: 50,
       interval: null,
     }
   },
   computed: {
-    // ...mapState({
-    //   amount: (state) => state.amount,
-    // }),
     repayment() {
       const repay = parseInt(this.amount) + parseInt(this.fee)
       const result = this.amount > 0 ? repay : this.amount
       return result
     },
   },
-  // watch: {
-  //   amount: (val) => {
-  //     if (val === 4000) {
-  //       this.$store.commit('stopInterval')
-  //     }
-  //   },
-  // },
+  watch: {
+    amount(val) {
+      if (val === 4000) {
+        clearInterval(this.interval)
+      }
+    },
+  },
   created() {
+    // window.addEventListener('scroll', this.incrementAmount)
     this.incrementAmount()
   },
+  // beforeMount() {
+  //   window.addEventListener('scroll', this.incrementAmount)
+  // },
+  // beforeDestroy() {
+  // window.removeEventListener('scroll', this.incrementAmount)
+  // },
   methods: {
     incrementAmount() {
-      if (this.amount < 4000) {
-        this.$store.dispatch('startInterval')
-      }
+      this.interval = setInterval(() => {
+        this.amount = this.amount + this.step
+      }, 250)
     },
   },
 }
