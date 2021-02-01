@@ -13,6 +13,8 @@
                 type="range"
                 min="0"
                 max="4000"
+                @change="amountChanged"
+                @click="amountChanged"
               />
               <div class="fee-container">
                 <span>Flat fee</span>
@@ -33,7 +35,21 @@
           Get a customized offer based on our revenue trends, and then choose
           your loan size.
         </h3>
-        <p>No ongoing interest, just a simple flat fee.</p>
+        <p>
+          No ongoing interest, just a simple flat fee. You can combine multiple
+          account statements to get a better loan offer
+        </p>
+
+        <div class="bank-slider">
+          <no-ssr>
+            <vue-tiny-slider v-bind="tinySliderOptions">
+              <img src="/images/ecobank.png" alt="ecobank-logo" />
+              <img src="/images/stanbic.png" alt="stanbic-logo" />
+              <img src="/images/access.png" alt="access-bank-logo" />
+              <img src="/images/gt.png" alt="gt-bank-logo" />
+            </vue-tiny-slider>
+          </no-ssr>
+        </div>
       </div>
     </div>
   </section>
@@ -46,8 +62,34 @@ export default {
     return {
       fee: 400,
       amount: 0,
-      step: 50,
+      step: 100,
       interval: null,
+      tinySliderOptions: {
+        container: '.bank-slider',
+        mouseDrag: true,
+        loop: true,
+        items: 3,
+        swipeAngle: 45,
+        controls: false,
+        controlsContainer: false,
+        arrowKeys: false,
+        prevButton: false,
+        nextButton: false,
+        autoplay: true,
+        autoplayButton: false,
+        freezable: false,
+        nav: false,
+        speed: 600,
+        autoplayTimeout: 2500,
+        autoplayButtonOutput: false,
+        autoplayResetOnVisibility: false,
+        autoplayHoverPause: true,
+        startIndex: 3,
+        gutter: 10,
+        animateIn: '',
+        // autoWidth: true,
+        center: true,
+      },
     }
   },
   computed: {
@@ -79,6 +121,11 @@ export default {
       this.interval = setInterval(() => {
         this.amount = this.amount + this.step
       }, 250)
+    },
+    amountChanged() {
+      if (this.amount < 4000) {
+        clearInterval(this.interval)
+      }
     },
   },
 }
