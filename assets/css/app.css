@@ -736,7 +736,7 @@ section.offer .offer-content .text-right .bank-slider {
   display: flex;
   align-items: center;
   margin-top: 50px;
-  max-width: 60%;
+  max-width: 50%;
   overflow-x: hidden;
 }
 
@@ -913,8 +913,8 @@ section.loans .loans-content .image-right .card-bg img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 90%;
-  max-width: 95%;
+  height: 85%;
+  max-width: 90%;
 }
 
 /* line 61, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
