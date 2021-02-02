@@ -89,7 +89,7 @@ export default {
         // animateIn: '',
         // animateNormal: 'tns-normal',
         // autoHeight: true,
-        autoWidth: true,
+        // autoWidth: true,
         center: true,
         // responsive: {
         //   1280: {
