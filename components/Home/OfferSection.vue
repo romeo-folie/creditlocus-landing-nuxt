@@ -30,7 +30,7 @@
         </div>
       </div>
 
-      <div class="text-right" data-aos="fade-up">
+      <div class="text-right">
         <h3>
           Get a customized offer based on our revenue trends, and then choose
           your loan size.
@@ -80,15 +80,22 @@ export default {
         freezable: false,
         nav: false,
         speed: 600,
-        autoplayTimeout: 2500,
+        autoplayTimeout: 2000,
         autoplayButtonOutput: false,
         autoplayResetOnVisibility: false,
         autoplayHoverPause: true,
         startIndex: 3,
         gutter: 10,
-        animateIn: '',
-        // autoWidth: true,
+        // animateIn: '',
+        // animateNormal: 'tns-normal',
+        // autoHeight: true,
+        autoWidth: true,
         center: true,
+        // responsive: {
+        //   1280: {
+        //     autoWidth: true,
+        //   },
+        // },
       },
     }
   },
