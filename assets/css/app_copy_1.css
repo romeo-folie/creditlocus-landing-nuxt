@@ -543,7 +543,7 @@ section.intro .intro-content .image-right img {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   /* line 117, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content {
     text-align: center;
