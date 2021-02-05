@@ -35,16 +35,16 @@ export default {
           title: 'Zero paperwork required',
           subtext: "You'll usually know if you're approved right away",
         },
-        {
-          image: '/images/approval/2.png',
-          title: 'Zero paperwork required',
-          subtext: "You'll usually know if you're approved right away",
-        },
-        {
-          image: '/images/approval/1.png',
-          title: 'Transparent fee structure',
-          subtext: 'It helps to know all the terms clearly before you decide',
-        },
+        // {
+        //   image: '/images/approval/2.png',
+        //   title: 'Zero paperwork required',
+        //   subtext: "You'll usually know if you're approved right away",
+        // },
+        // {
+        //   image: '/images/approval/1.png',
+        //   title: 'Transparent fee structure',
+        //   subtext: 'It helps to know all the terms clearly before you decide',
+        // },
       ],
     }
   },

@@ -131,13 +131,20 @@
 }
 
 @font-face {
+  font-family: "Matter-Heavy";
+  src: local("Matter-Heavy"), url("/fonts/Matter/Matter-Heavy.woff2") format("woff2");
+  src: local("Matter-Heavy"), url("/fonts/Matter/Matter-Heavy.woff") format("woff");
+  font-display: block;
+}
+
+@font-face {
   font-family: "DM Sans";
   src: local("DM Sans"), url("/fonts/DMSans/DMSans-Regular.woff2") format("woff2");
   src: local("DM Sans"), url("/fonts/DMSans/DMSans-Regular.woff") format("woff");
   font-display: block;
 }
 
-/* line 13, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 19, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 body {
   font-family: 'DM Sans', 'sans-serif', 'serif';
   margin: 0;
@@ -152,7 +159,7 @@ body {
   line-height: normal;
 }
 
-/* line 25, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 31, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 body .overlay {
   position: absolute;
   top: 0;
@@ -164,7 +171,7 @@ body .overlay {
   display: none;
 }
 
-/* line 34, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 40, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 body .overlay .close-btn {
   position: absolute;
   top: 36.5%;
@@ -176,7 +183,7 @@ body .overlay .close-btn {
   transform: translateX(50%);
 }
 
-/* line 44, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 50, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 body .overlay .close-btn a svg {
   height: 20px;
   width: 20px;
@@ -184,22 +191,22 @@ body .overlay .close-btn a svg {
   stroke: #372865;
 }
 
-/* line 50, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 56, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 53, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 59, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 h2, h3 {
   font-family: 'Matter';
 }
 
-/* line 56, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 62, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 button {
   font-family: 'DM Sans';
 }
 
-/* line 59, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 65, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 ul {
   list-style: none;
   text-decoration: none;
@@ -207,7 +214,7 @@ ul {
   padding: 0;
 }
 
-/* line 65, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 71, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a {
   display: flex;
   align-items: center;
@@ -218,17 +225,17 @@ a {
   outline: none;
 }
 
-/* line 73, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 79, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a:focus {
   outline: none;
 }
 
-/* line 75, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 81, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a:active {
   color: #372865;
 }
 
-/* line 78, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 84, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 section {
   width: 100%;
   min-height: 100vh;
@@ -237,20 +244,20 @@ section {
   justify-content: center;
 }
 
-/* line 85, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 91, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 div.content-wrapper {
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 380px) {
-  /* line 91, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  /* line 97, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
     top: 38%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  /* line 98, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  /* line 104, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
     top: 31%;
     right: 12%;
@@ -392,9 +399,10 @@ section.intro .intro-content .text-left h2 {
   color: #372865;
   margin-top: 25px;
   margin-bottom: 0;
+  font-weight: 800;
 }
 
-/* line 15, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+/* line 16, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .text-left h4 {
   color: #372865;
   font-size: 1.2rem;
@@ -403,7 +411,7 @@ section.intro .intro-content .text-left h4 {
   margin-bottom: 30px;
 }
 
-/* line 21, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+/* line 22, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .text-left .email-input {
   height: 55px;
   position: relative;
@@ -411,7 +419,7 @@ section.intro .intro-content .text-left .email-input {
   justify-content: space-between;
 }
 
-/* line 26, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+/* line 27, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .text-left .email-input input {
   border: none;
   border-radius: 25px;
@@ -424,17 +432,17 @@ section.intro .intro-content .text-left .email-input input {
   color: #909ABB;
 }
 
-/* line 36, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+/* line 37, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .text-left .email-input input:focus {
   outline: none;
 }
 
-/* line 38, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+/* line 39, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .text-left .email-input input::placeholder {
   color: #909ABB;
 }
 
-/* line 40, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+/* line 41, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .text-left .email-input a.join-btn {
   position: absolute;
   top: 0;
@@ -450,35 +458,35 @@ section.intro .intro-content .text-left .email-input a.join-btn {
   font-size: 1.0rem;
 }
 
-/* line 53, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+/* line 54, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .image-right {
   max-width: 53%;
 }
 
-/* line 55, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+/* line 56, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .image-right img {
   height: 650px;
 }
 
 @media screen and (max-width: 949px) {
-  /* line 61, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 62, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content {
     padding-top: 15%;
     text-align: center;
   }
-  /* line 64, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 65, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left {
     width: 100%;
   }
-  /* line 66, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 67, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     margin-top: 0;
   }
-  /* line 68, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 69, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right {
     display: none;
   }
-  /* line 70, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 71, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .email-input {
     width: 80%;
     margin: 0 auto;
@@ -486,22 +494,22 @@ section.intro .intro-content .image-right img {
 }
 
 @media screen and (max-width: 640px) {
-  /* line 77, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 78, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .email-input {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 554px) {
-  /* line 84, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 85, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 2.6rem;
   }
-  /* line 86, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 87, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.1rem;
   }
-  /* line 88, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 89, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input {
     position: static;
     width: 100%;
@@ -510,14 +518,14 @@ section.intro .intro-content .image-right img {
     align-items: center;
     text-align: center;
   }
-  /* line 95, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 96, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input input {
     font-size: 0.9rem;
     padding: 0 15px;
     text-align: center;
     height: 60px;
   }
-  /* line 100, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 101, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
     position: static;
     font-size: 0.9rem;
@@ -529,87 +537,87 @@ section.intro .intro-content .image-right img {
 }
 
 @media screen and (max-width: 400px) {
-  /* line 112, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 113, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 2.5rem;
   }
 }
 
 @media screen and (min-width: 554px) {
-  /* line 119, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 120, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 4.0rem;
   }
-  /* line 121, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 122, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 950px) {
-  /* line 128, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 129, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 3.3rem;
   }
-  /* line 130, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 131, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.2rem;
   }
-  /* line 133, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 134, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
     font-size: .8rem;
   }
-  /* line 136, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 137, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 600px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 143, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 144, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 3.5rem;
   }
-  /* line 145, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 146, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.2rem;
   }
-  /* line 148, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 149, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
     font-size: .9rem;
     width: 32%;
   }
-  /* line 152, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 153, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 620px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 159, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 160, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 4.0rem;
   }
-  /* line 161, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 162, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.2rem;
   }
-  /* line 164, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 165, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
     height: 100%;
   }
-  /* line 167, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 168, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 640px;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 174, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 175, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 4.5rem;
   }
-  /* line 177, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 178, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 700px;
   }
@@ -1320,31 +1328,36 @@ section.faq .faq-content p {
 
 /* line 65, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
 section.faq .faq-content p span {
+  display: inline-block;
   font-weight: 500;
+}
+
+/* line 68, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+section.faq .faq-content p span a {
   color: #5F8FBE;
 }
 
 @media screen and (max-width: 1060px) {
-  /* line 73, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 75, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content {
     padding: 100px 0;
   }
-  /* line 75, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 77, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content .accordion-container {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 640px) {
-  /* line 81, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 83, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content h3 {
     font-size: 2.2rem;
   }
-  /* line 84, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 86, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content .accordion-container .accordion {
     font-size: 1.0rem;
   }
-  /* line 87, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  /* line 89, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content .accordion-container .panel p {
     font-size: 1.0rem;
   }
@@ -1473,11 +1486,95 @@ section.blog .blog-content .filter-bar .filter-bar-content {
 }
 
 /* line 28, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container {
+  flex: 1;
+  position: relative;
+  user-select: none;
+}
+
+/* line 32, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #FAF9FF;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* line 42, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container button:focus {
+  outline: none;
+}
+
+/* line 44, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container button svg {
+  width: 15px;
+}
+
+/* line 46, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container .dropdown-list {
+  background-color: #FAF9FF;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-box-shadow: 0px 10px 11px -1px rgba(31, 17, 123, 0.1);
+  -moz-box-shadow: 0px 10px 11px -1px rgba(31, 17, 123, 0.1);
+  box-shadow: 0px 10px 11px -1px rgba(31, 17, 123, 0.1);
+}
+
+/* line 58, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container .dropdown-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  text-align: left;
+}
+
+/* line 64, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container .dropdown-list ul li.custom-option {
+  width: 100%;
+  padding: 15px;
+  font-size: .9rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* line 70, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container .dropdown-list ul li.custom-option:hover {
+  cursor: pointer;
+  background-color: #909ABB;
+}
+
+/* line 73, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container .dropdown-list ul li.custom-option.selected {
+  color: #fff;
+  background-color: #372865;
+}
+
+/* line 76, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+section.blog .blog-content .filter-bar .filter-bar-content .custom-select-container.active .dropdown-list {
+  opacity: 1;
+  visibility: initial;
+  pointer-events: all;
+}
+
+/* line 80, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .select-container {
   flex: 1;
 }
 
-/* line 30, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 82, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .select-container select#filter {
   width: 100%;
   height: 100%;
@@ -1487,12 +1584,12 @@ section.blog .blog-content .filter-bar .filter-bar-content .select-container sel
   position: relative;
 }
 
-/* line 37, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 89, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .select-container select#filter:focus {
   outline: none;
 }
 
-/* line 39, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 91, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .select-container select#filter::after {
   content: '';
   position: absolute;
@@ -1504,7 +1601,7 @@ section.blog .blog-content .filter-bar .filter-bar-content .select-container sel
   background-color: #909ABB;
 }
 
-/* line 48, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 100, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .search-container {
   display: flex;
   align-items: center;
@@ -1513,7 +1610,7 @@ section.blog .blog-content .filter-bar .filter-bar-content .search-container {
   border-radius: 20px 0 0 20px;
 }
 
-/* line 54, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 106, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .search-container input#search {
   width: 100%;
   height: 100%;
@@ -1524,12 +1621,12 @@ section.blog .blog-content .filter-bar .filter-bar-content .search-container inp
   border-radius: inherit;
 }
 
-/* line 62, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 114, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .search-container input#search:focus {
   outline: none;
 }
 
-/* line 64, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 116, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .search-container .vertical-line {
   width: .75px;
   height: 70%;
@@ -1538,7 +1635,7 @@ section.blog .blog-content .filter-bar .filter-bar-content .search-container .ve
   background-color: #909ABB;
 }
 
-/* line 70, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 122, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .search-container img {
   position: absolute;
   right: 15px;
@@ -1546,14 +1643,14 @@ section.blog .blog-content .filter-bar .filter-bar-content .search-container img
   width: 15px;
 }
 
-/* line 75, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 127, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .button-container {
   flex: 0.5;
   border-radius: 0 20px 20px 0;
   margin-left: 9px;
 }
 
-/* line 79, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 131, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .button-container a.search-btn {
   width: 100%;
   height: 100%;
@@ -1563,12 +1660,12 @@ section.blog .blog-content .filter-bar .filter-bar-content .button-container a.s
   border-radius: 20px;
 }
 
-/* line 86, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 138, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .filter-bar-content .button-container a.search-btn img {
   display: none;
 }
 
-/* line 88, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 140, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .input-container {
   width: 38%;
   height: 50px;
@@ -1578,7 +1675,7 @@ section.blog .blog-content .filter-bar .input-container {
   border-radius: 15px 0 0 15px;
 }
 
-/* line 95, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 147, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .input-container select#filter {
   width: 70%;
   height: 100%;
@@ -1591,12 +1688,12 @@ section.blog .blog-content .filter-bar .input-container select#filter {
   border-radius: inherit;
 }
 
-/* line 105, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 157, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .input-container select#filter:focus {
   outline: none;
 }
 
-/* line 107, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 159, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .input-container a.search-btn {
   width: 25%;
   height: 100%;
@@ -1606,7 +1703,7 @@ section.blog .blog-content .filter-bar .input-container a.search-btn {
   border-radius: 0 15px 15px 0;
 }
 
-/* line 114, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 166, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .input-container input#search {
   width: 70%;
   height: 100%;
@@ -1617,12 +1714,12 @@ section.blog .blog-content .filter-bar .input-container input#search {
   border-radius: inherit;
 }
 
-/* line 122, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 174, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .filter-bar .input-container input#search:focus {
   outline: none;
 }
 
-/* line 124, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 176, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper {
   width: 100%;
   display: grid;
@@ -1632,7 +1729,7 @@ section.blog .blog-content .post-wrapper {
   justify-content: center;
 }
 
-/* line 131, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 183, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post {
   height: 100%;
   width: 300px;
@@ -1646,20 +1743,20 @@ section.blog .blog-content .post-wrapper .post {
   margin: 0 auto;
 }
 
-/* line 140, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 192, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .image-container {
   height: 40%;
   border-radius: 15px 15px 0 0;
 }
 
-/* line 143, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 195, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .image-container img {
   height: 100%;
   width: 100%;
   border-radius: inherit;
 }
 
-/* line 147, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 199, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .text-container {
   display: flex;
   flex-direction: column;
@@ -1671,24 +1768,24 @@ section.blog .blog-content .post-wrapper .post .text-container {
   background-color: #fff;
 }
 
-/* line 156, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 208, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .text-container .line-one {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 159, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 211, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .text-container .line-one span {
   font-size: 1.0rem;
   color: #909ABB;
 }
 
-/* line 162, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 214, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .text-container .article-content {
   height: 65%;
 }
 
-/* line 164, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 216, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .text-container .article-content h4 {
   font-family: 'Matter';
   font-size: 1.1rem;
@@ -1700,7 +1797,7 @@ section.blog .blog-content .post-wrapper .post .text-container .article-content 
   overflow: hidden;
 }
 
-/* line 173, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 225, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .text-container .article-content p {
   font-size: 1.0rem;
   margin: 10px 0;
@@ -1711,21 +1808,21 @@ section.blog .blog-content .post-wrapper .post .text-container .article-content 
   overflow: hidden;
 }
 
-/* line 181, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 233, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .text-container a#more {
   font-size: .9rem;
   margin-left: auto;
   color: #372865;
 }
 
-/* line 185, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 237, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .post-wrapper .post .text-container a#more::after {
   content: "\27f6";
   color: #372865;
   margin-left: 5px;
 }
 
-/* line 189, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 241, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination {
   display: flex;
   width: 80%;
@@ -1733,7 +1830,7 @@ section.blog .blog-content .pagination {
   margin: 10px 0 20px;
 }
 
-/* line 194, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 246, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination a {
   margin-right: 5px;
   border-radius: 50%;
@@ -1741,12 +1838,12 @@ section.blog .blog-content .pagination a {
   color: #372865;
 }
 
-/* line 199, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 251, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination a:first-of-type {
   margin-right: auto;
 }
 
-/* line 201, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 253, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination a:first-of-type::before {
   content: "\27f6";
   color: #372865;
@@ -1754,41 +1851,41 @@ section.blog .blog-content .pagination a:first-of-type::before {
   transform: ScaleX(-1);
 }
 
-/* line 206, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 258, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination a:first-of-type:hover:not(.active) {
   background-color: unset;
 }
 
-/* line 208, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 260, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination a:last-of-type {
   margin-left: auto;
   margin-right: 0;
 }
 
-/* line 211, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 263, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination a:last-of-type::after {
   content: "\27f6";
   color: #372865;
   margin-left: 5px;
 }
 
-/* line 215, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 267, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination a:last-of-type:hover:not(.active) {
   background-color: unset;
 }
 
-/* line 217, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 269, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination a.active {
   background-color: #372865;
   color: #fff;
 }
 
-/* line 220, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 272, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content .pagination a:hover:not(.active) {
   background-color: #FAF9FF;
 }
 
-/* line 222, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 274, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content button#see-more {
   width: 160px;
   margin: 0 auto;
@@ -1809,52 +1906,52 @@ section.blog .blog-content button#see-more {
   margin-top: 30px;
 }
 
-/* line 238, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 290, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content button#see-more:focus {
   outline: none;
 }
 
-/* line 240, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+/* line 292, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
 section.blog .blog-content button#see-more svg {
   height: 18px;
 }
 
 @media screen and (max-width: 640px) {
-  /* line 249, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+  /* line 301, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
   section.blog .blog-content .filter-bar {
     width: 100%;
   }
-  /* line 254, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+  /* line 306, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
   section.blog .blog-content .filter-bar .filter-bar-content .button-container a.search-btn img {
     display: block;
   }
-  /* line 256, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+  /* line 308, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
   section.blog .blog-content .filter-bar .filter-bar-content .button-container a.search-btn span {
     display: none;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  /* line 263, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+  /* line 315, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
   section.blog .blog-content .post-wrapper .post {
     width: 315px;
   }
-  /* line 265, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+  /* line 317, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
   section.blog .blog-content .filter-bar {
     width: 75%;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 271, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+  /* line 323, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
   section.blog .blog-content .post-wrapper {
     grid-template-columns: repeat(auto-fill, minmax(330px, 29%));
   }
-  /* line 273, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+  /* line 325, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
   section.blog .blog-content .post-wrapper .post {
     width: 330px;
   }
-  /* line 277, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
+  /* line 329, D:/Projects/htmlCSS/credit-locus/sass/layouts/_blog-section.sass */
   section.blog .blog-content .post-wrapper .post .text-container .article-content p {
     -webkit-line-clamp: 5;
   }

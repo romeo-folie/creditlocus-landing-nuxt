@@ -9,7 +9,10 @@
           :item="item"
         />
       </div>
-      <p>Find out more by reaching out to the <span>Support Team.</span></p>
+      <p>
+        Find out more by reaching out to the
+        <span><a href="mailto:admin@creditlocus.com">Support Team.</a></span>
+      </p>
     </div>
   </section>
 </template>
@@ -21,24 +24,24 @@ export default {
     return {
       items: [
         {
-          title: 'How do I repay my loans?',
+          title: 'How do you determine my loan offer?',
           text:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia qui optio laborum dolorem eaque maxime perspiciatis fuga labore nondeleniti? Non esse explicabo consectetur necessitatibus saepe? Commodi, totam sequi consequatur amet assumenda cumque, beatae eius, consequuntur quo odio necessitatibus. Temporibus laborum sunt nostrum sit, debitis animi ad odit mollitia enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+            'Loan eligibility is based on a variety of factors related to your business, including but not limited to your revenue trends, account history and repayment frequency.',
         },
         {
-          title: 'How do I repay my loans?',
+          title: 'How do I repay the loan?',
           text:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia qui optio laborum dolorem eaque maxime perspiciatis fuga labore nondeleniti? Non esse explicabo consectetur necessitatibus saepe? Commodi, totam sequi consequatur amet assumenda cumque, beatae eius, consequuntur quo odio necessitatibus. Temporibus laborum sunt nostrum sit, debitis animi ad odit mollitia enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+            'Your repayment amount (shown before you accept a loan offer) will be deducted from your bank account via debit cards or your mobile wallets.',
         },
         {
-          title: 'How do I repay my loans?',
+          title: 'Can I request a different loan amount?',
           text:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia qui optio laborum dolorem eaque maxime perspiciatis fuga labore nondeleniti? Non esse explicabo consectetur necessitatibus saepe? Commodi, totam sequi consequatur amet assumenda cumque, beatae eius, consequuntur quo odio necessitatibus. Temporibus laborum sunt nostrum sit, debitis animi ad odit mollitia enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+            'Yes. The eligible loan amount is the maximum amount you can borrow. However, depending on your business needs, you may take less. As you adjust your loan amount, the flat fee and repayment amounts change accordingly.',
         },
         {
-          title: 'How do I repay my loans?',
+          title: 'When can I start borrowing from Credit Locus?',
           text:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia qui optio laborum dolorem eaque maxime perspiciatis fuga labore nondeleniti? Non esse explicabo consectetur necessitatibus saepe? Commodi, totam sequi consequatur amet assumenda cumque, beatae eius, consequuntur quo odio necessitatibus. Temporibus laborum sunt nostrum sit, debitis animi ad odit mollitia enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+            'Soon. Kindly add your email address to the waiting list above, and we’ll be quick to notify you when we’re open to the public.',
         },
       ],
     }

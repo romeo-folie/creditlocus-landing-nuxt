@@ -46,7 +46,7 @@
               <img src="/images/ecobank.png" alt="ecobank-logo" />
               <img src="/images/stanbic.png" alt="stanbic-logo" />
               <img src="/images/access.png" alt="access-bank-logo" />
-              <img src="/images/gt.png" alt="gt-bank-logo" />
+              <img src="/images/gtbank_copy.png" alt="gt-bank-logo" />
             </vue-tiny-slider>
           </no-ssr>
         </div>

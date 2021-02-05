@@ -64,3 +64,24 @@ function hideVideo(){
   overlay.style.display = 'none'
   videoContainer.style.visibility = 'hidden'
 }
+
+function toggleDropdown(){
+  document.querySelector('.custom-select-container').classList.toggle('active');
+}
+
+for (const option of document.querySelectorAll(".custom-option")) {
+  option.addEventListener('click', function() {
+      if (!this.classList.contains('selected')) {
+          this.parentNode.querySelector('.custom-option.selected').classList.remove('selected');
+          this.classList.add('selected');
+          this.closest('.custom-select-container').querySelector('.custom-select-trigger span').textContent = this.textContent;
+      }
+  })
+}
+
+window.addEventListener('click', function(e) {
+  const select = document.querySelector('.custom-select-container')
+  if (!select.contains(e.target)) {
+      select.classList.remove('active');
+  }
+});

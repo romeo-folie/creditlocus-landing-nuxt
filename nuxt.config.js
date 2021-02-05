@@ -56,6 +56,13 @@ export default {
         crossorigin: true,
       },
       {
+        rel: 'preload',
+        as: 'font',
+        type: 'font/woff2',
+        href: '/fonts/Matter/Matter-Heavy.woff2',
+        crossorigin: true,
+      },
+      {
         rel: 'preconnect',
         href: 'https://annular-system-303211.uc.r.appspot.com',
         crossorigin: true,

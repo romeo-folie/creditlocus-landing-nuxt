@@ -11,7 +11,7 @@
         </div>
 
         <div class="right" data-aos="zoom-in-left">
-          <img src="/images/buildings.jpeg" alt="Photo of buildings" />
+          <img src="/images/cf-large.jpg" alt="Photo of buildings" />
         </div>
       </div>
 
