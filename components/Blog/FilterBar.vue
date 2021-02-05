@@ -13,16 +13,16 @@
         <div class="vertical-line"></div>
       </div>
 
-      <!-- <div class="select-container">
-        <select id="filter" v-model="category" name="filter">
+      <div class="select-container">
+        <select id="filter" v-model="category" name="filter" :value="category">
           <option value="all">All</option>
           <option v-for="cat in categories" :key="cat.id" :value="cat.name">
             {{ cat.name }}
           </option>
         </select>
-      </div> -->
+      </div>
 
-      <div class="custom-select-container" :class="{ active: drop }">
+      <!-- <div class="custom-select-container" :class="{ active: drop }">
         <button class="custom-select-trigger" @click="triggerDropdown">
           <span>{{ category }}</span>
           <svg fill="none" viewBox="0 0 10 6" class="styles_arrow__2ystB">
@@ -46,14 +46,9 @@
             >
               {{ cat.name }}
             </li>
-            <!-- <li class="custom-option selected" data-value="category_b">
-              Category B
-            </li>
-            <li class="custom-option" data-value="category_c">Category C</li>
-            <li class="custom-option" data-value="category_d">Category D</li> -->
           </ul>
         </div>
-      </div>
+      </div> -->
 
       <div class="button-container">
         <a href="#" class="search-btn" @click="searchPosts">
@@ -73,13 +68,14 @@ export default {
   data() {
     return {
       search: '',
-      category: 'All',
+      category: 'all',
       drop: false,
     }
   },
   computed: {
     ...mapState({
-      categories: (state) => [{ name: 'All' }, ...state.posts.categories],
+      // categories: (state) => [{ name: 'All' }, ...state.posts.categories],
+      categories: (state) => state.posts.categories,
     }),
   },
   mounted() {

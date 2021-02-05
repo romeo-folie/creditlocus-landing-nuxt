@@ -395,7 +395,7 @@ section.intro .intro-content {
 
 /* line 10, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .text-left h2 {
-  font-size: 4.5rem;
+  font-size: 4.2rem;
   color: #372865;
   margin-top: 25px;
   margin-bottom: 0;
@@ -405,7 +405,7 @@ section.intro .intro-content .text-left h2 {
 /* line 16, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .text-left h4 {
   color: #372865;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -460,7 +460,7 @@ section.intro .intro-content .text-left .email-input a.join-btn {
 
 /* line 54, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
 section.intro .intro-content .image-right {
-  max-width: 50%;
+  max-width: 53%;
 }
 
 /* line 56, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
@@ -469,24 +469,24 @@ section.intro .intro-content .image-right img {
 }
 
 @media screen and (max-width: 949px) {
-  /* line 61, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 62, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content {
     padding-top: 15%;
     text-align: center;
   }
-  /* line 64, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 65, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left {
     width: 100%;
   }
-  /* line 66, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 67, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     margin-top: 0;
   }
-  /* line 68, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 69, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right {
     display: none;
   }
-  /* line 70, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 71, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .email-input {
     width: 80%;
     margin: 0 auto;
@@ -494,22 +494,22 @@ section.intro .intro-content .image-right img {
 }
 
 @media screen and (max-width: 640px) {
-  /* line 77, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 78, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .email-input {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 554px) {
-  /* line 84, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 85, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
-    font-size: 2.9rem;
+    font-size: 2.6rem;
   }
-  /* line 86, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 87, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.1rem;
   }
-  /* line 88, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 89, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input {
     position: static;
     width: 100%;
@@ -518,14 +518,14 @@ section.intro .intro-content .image-right img {
     align-items: center;
     text-align: center;
   }
-  /* line 95, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 96, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input input {
     font-size: 0.9rem;
     padding: 0 15px;
     text-align: center;
     height: 60px;
   }
-  /* line 100, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 101, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
     position: static;
     font-size: 0.9rem;
@@ -536,132 +536,88 @@ section.intro .intro-content .image-right img {
   }
 }
 
-@media screen and (max-width: 420px) {
-  /* line 112, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+@media screen and (max-width: 400px) {
+  /* line 113, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
-    font-size: 2.7rem;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  /* line 117, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content {
-    text-align: center;
-  }
-  /* line 120, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left h2 {
-    font-size: 2.0rem;
-  }
-  /* line 122, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left h4 {
-    font-size: 1.1rem;
-  }
-  /* line 124, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left .email-input {
-    position: static;
-    width: 100%;
-    height: 120px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  /* line 131, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left .email-input input {
-    font-size: 0.9rem;
-    padding: 0 15px;
-    text-align: center;
-    height: 60px;
-  }
-  /* line 136, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left .email-input a.join-btn {
-    position: static;
-    font-size: 0.9rem;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 20px;
-    height: 50px;
-  }
-  /* line 143, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .image-right {
-    display: none;
+    font-size: 2.5rem;
   }
 }
 
 @media screen and (min-width: 554px) {
-  /* line 150, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 120, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 4.0rem;
   }
-  /* line 152, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 122, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 950px) {
-  /* line 159, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 129, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 3.3rem;
   }
-  /* line 161, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 131, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.2rem;
   }
-  /* line 164, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 134, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
     font-size: .8rem;
   }
-  /* line 167, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 137, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 600px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 174, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 144, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 3.5rem;
   }
-  /* line 176, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 146, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.2rem;
   }
-  /* line 179, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 149, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
     font-size: .9rem;
     width: 32%;
   }
-  /* line 183, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 153, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 620px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 190, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 160, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 4.0rem;
   }
-  /* line 192, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 162, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.2rem;
   }
-  /* line 195, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 165, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
     height: 100%;
   }
-  /* line 198, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 168, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 640px;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 205, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 175, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 4.5rem;
   }
-  /* line 208, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 178, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 700px;
   }
