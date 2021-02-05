@@ -539,7 +539,7 @@ section.intro .intro-content .image-right img {
 @media screen and (max-width: 420px) {
   /* line 112, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
-    font-size: 2.7rem;
+    font-size: 2.55rem;
   }
 }
 
