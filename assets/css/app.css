@@ -250,15 +250,36 @@ div.content-wrapper {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 780px) {
   /* line 98, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  body .overlay .close-btn {
+    top: 37%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* line 104, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
     top: 38%;
   }
 }
 
+@media screen and (max-width: 420px) {
+  /* line 110, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  body .overlay .close-btn {
+    top: 37%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 116, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  body .overlay .close-btn {
+    top: 35%;
+  }
+}
+
 @media screen and (min-width: 1280px) {
-  /* line 105, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  /* line 123, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
     top: 31%;
     right: 12%;
@@ -544,60 +565,65 @@ section.intro .intro-content .image-right img {
   }
 }
 
+@media screen and (max-width: 340px) {
+  /* line 118, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content {
+    text-align: center;
+  }
+  /* line 121, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left h2 {
+    font-size: 2.0rem;
+  }
+  /* line 123, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left h4 {
+    font-size: 1.1rem;
+  }
+  /* line 125, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left .email-input {
+    position: static;
+    width: 100%;
+    height: 120px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  /* line 132, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left .email-input input {
+    font-size: 0.9rem;
+    padding: 0 15px;
+    text-align: center;
+    height: 60px;
+  }
+  /* line 137, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left .email-input a.join-btn {
+    position: static;
+    font-size: 0.9rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 50px;
+  }
+  /* line 144, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .image-right {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 554px) {
-  /* line 120, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 151, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 4.0rem;
   }
-  /* line 122, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 153, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
     font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 950px) {
-  /* line 129, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left h2 {
-    font-size: 3.3rem;
-  }
-  /* line 131, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left h4 {
-    font-size: 1.2rem;
-  }
-  /* line 134, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left .email-input a.join-btn {
-    font-size: .8rem;
-  }
-  /* line 137, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .image-right img {
-    height: 600px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  /* line 144, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left h2 {
-    font-size: 3.5rem;
-  }
-  /* line 146, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left h4 {
-    font-size: 1.2rem;
-  }
-  /* line 149, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .text-left .email-input a.join-btn {
-    font-size: .9rem;
-    width: 32%;
-  }
-  /* line 153, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
-  section.intro .intro-content .image-right img {
-    height: 620px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
   /* line 160, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
-    font-size: 4.0rem;
+    font-size: 3.3rem;
   }
   /* line 162, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
@@ -605,20 +631,59 @@ section.intro .intro-content .image-right img {
   }
   /* line 165, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left .email-input a.join-btn {
-    height: 100%;
+    font-size: .8rem;
   }
   /* line 168, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .image-right img {
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 175, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left h2 {
+    font-size: 3.5rem;
+  }
+  /* line 177, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left h4 {
+    font-size: 1.2rem;
+  }
+  /* line 180, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left .email-input a.join-btn {
+    font-size: .9rem;
+    width: 32%;
+  }
+  /* line 184, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .image-right img {
+    height: 620px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 191, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left h2 {
+    font-size: 4.0rem;
+  }
+  /* line 193, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left h4 {
+    font-size: 1.2rem;
+  }
+  /* line 196, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  section.intro .intro-content .text-left .email-input a.join-btn {
+    height: 100%;
+  }
+  /* line 199, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 640px;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 175, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 206, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
     font-size: 4.5rem;
   }
-  /* line 178, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
+  /* line 209, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .image-right img {
     height: 700px;
   }
@@ -817,17 +882,58 @@ section.offer .offer-content .text-right .bank-slider img {
   }
 }
 
+@media screen and (max-width: 340px) {
+  /* line 137, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .amt-card-left {
+    margin-right: auto;
+  }
+  /* line 139, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .amt-card-left .amt-card-bg {
+    width: 100%;
+    height: 450px;
+  }
+  /* line 144, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .amt-card-left .amt-card-bg .amt-card .amt-card-content h4 {
+    font-size: 1rem;
+  }
+  /* line 146, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .amt-card-left .amt-card-bg .amt-card .amt-card-content h3 {
+    font-size: 1.5rem;
+  }
+  /* line 148, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .amt-card-left .amt-card-bg span#ill {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 151, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .fee-container {
+    font-size: 0.9rem;
+  }
+  /* line 153, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .fee-container span#repayment {
+    text-align: left;
+  }
+  /* line 155, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .text-right {
+    max-width: 95%;
+  }
+  /* line 157, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content .text-right h3 {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (min-width: 1300px) {
-  /* line 138, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 164, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .amt-card-left .amt-card-bg {
     height: 600px;
     width: 470px;
   }
-  /* line 141, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 167, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right {
     max-width: 50%;
   }
-  /* line 143, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 169, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right h3 {
     font-size: 3.0rem;
   }
@@ -1014,22 +1120,41 @@ section.loans .loans-content .video-container .video-content iframe {
   }
 }
 
+@media screen and (max-width: 340px) {
+  /* line 128, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  section.loans .loans-content {
+    width: 95%;
+  }
+  /* line 131, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  section.loans .loans-content .image-right .card-bg {
+    height: 400px;
+  }
+  /* line 134, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  section.loans .loans-content .text-left h3 {
+    font-size: 1.5rem;
+  }
+  /* line 137, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  section.loans .loans-content .text-left .payment img {
+    height: 30px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
-  /* line 129, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 143, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .text-left {
     max-width: 50%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  /* line 136, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 150, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content .video-container {
     width: 80%;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 142, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
+  /* line 156, D:/Projects/htmlCSS/credit-locus/sass/layouts/_loans-section.sass */
   section.loans .loans-content h3 {
     font-size: 3.0rem;
   }
@@ -1107,15 +1232,22 @@ section.cash-flow .cash-flow-content p {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 340px) {
   /* line 57, D:/Projects/htmlCSS/credit-locus/sass/layouts/_cash-flow-section.sass */
+  section.cash-flow .cash-flow-content .text-and-photo .left h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* line 65, D:/Projects/htmlCSS/credit-locus/sass/layouts/_cash-flow-section.sass */
   section.cash-flow .cash-flow-content .text-and-photo .left h3 {
     width: 90%;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 64, D:/Projects/htmlCSS/credit-locus/sass/layouts/_cash-flow-section.sass */
+  /* line 72, D:/Projects/htmlCSS/credit-locus/sass/layouts/_cash-flow-section.sass */
   section.cash-flow .cash-flow-content .text-and-photo .left {
     max-width: 45%;
   }
@@ -1221,8 +1353,33 @@ section.approval .approval-content .approval-grid .approval-item .text-container
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 340px) {
+  /* line 69, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  section.approval .approval-content h3 {
+    font-size: 1.5rem;
+  }
   /* line 71, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  section.approval .approval-content .approval-grid {
+    text-align: center;
+  }
+  /* line 73, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  section.approval .approval-content .approval-grid .approval-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 76, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  section.approval .approval-content .approval-grid .approval-item img {
+    margin-bottom: 10px;
+  }
+  /* line 79, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  section.approval .approval-content .approval-grid .approval-item .text-container h4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  /* line 89, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid .approval-item {
     height: 90px;
   }
@@ -1361,6 +1518,25 @@ section.faq .faq-content p span a {
   /* line 89, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
   section.faq .faq-content .accordion-container .panel p {
     font-size: 1.0rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 95, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  section.faq .faq-content h3 {
+    font-size: 1.5rem;
+  }
+  /* line 98, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  section.faq .faq-content .accordion-container .accordion {
+    font-size: 0.9rem;
+  }
+  /* line 101, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  section.faq .faq-content .accordion-container .panel p {
+    font-size: 0.9rem;
+  }
+  /* line 103, D:/Projects/htmlCSS/credit-locus/sass/layouts/_faq-section.sass */
+  section.faq .faq-content p {
+    font-size: 0.9rem;
   }
 }
 

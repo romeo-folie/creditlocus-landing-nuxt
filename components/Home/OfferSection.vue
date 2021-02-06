@@ -21,7 +21,7 @@
                 <span>GHC {{ fee }}</span>
               </div>
               <div class="fee-container">
-                <span>Total repayment</span>
+                <span id="repayment">Total repayment</span>
                 <span>GHC {{ repayment }}</span>
               </div>
             </div>

@@ -1,5 +1,5 @@
 <template>
-  <div id="overlay" class="overlay">
+  <div id="overlay" class="overlay" onclick="hideVideo()">
     <div class="close-btn" onclick="hideVideo()">
       <a href="javascript:void();"
         ><svg
