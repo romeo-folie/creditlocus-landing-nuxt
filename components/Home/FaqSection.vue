@@ -11,7 +11,7 @@
       </div>
       <p>
         Find out more by reaching out to the
-        <span><a href="mailto:admin@creditlocus.com">Support Team.</a></span>
+        <span><a href="mailto:admin@creditlocus.com">support team.</a></span>
       </p>
     </div>
   </section>
