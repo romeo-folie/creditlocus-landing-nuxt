@@ -24,9 +24,14 @@ export function filterPosts(filterObj, posts) {
       if (
         filteredPosts[i].title !== null &&
         filteredPosts[i].title.toLowerCase().includes(searchTerm)
-        // ||
-        // consider adding search by month since it's visible in post card
+        ||
+        //categories is an array
+        // we need to do a find and compare the search term to each category object's name
+        (filteredPosts[i].categories.find(cat => cat.name.toLowerCase() === searchTerm))
         // (filteredPosts[i].category !== null && filteredList[i].category.toLowerCase().includes(searchTerm))
+        // ||
+        // (filteredPosts[i].)
+        // consider adding search by month since it's visible in post card
       ) {
         searchList.push(filteredPosts[i])
       }
