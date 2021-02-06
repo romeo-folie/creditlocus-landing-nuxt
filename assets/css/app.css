@@ -199,14 +199,15 @@ body .overlay .close-btn a svg {
 /* line 59, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 h2, h3 {
   font-family: 'Matter-Heavy';
+  font-weight: normal;
 }
 
-/* line 62, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 63, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 button {
   font-family: 'DM Sans';
 }
 
-/* line 65, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 66, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 ul {
   list-style: none;
   text-decoration: none;
@@ -214,7 +215,7 @@ ul {
   padding: 0;
 }
 
-/* line 71, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 72, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a {
   display: flex;
   align-items: center;
@@ -225,17 +226,17 @@ a {
   outline: none;
 }
 
-/* line 79, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 80, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a:focus {
   outline: none;
 }
 
-/* line 81, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 82, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 a:active {
   color: #372865;
 }
 
-/* line 84, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 85, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 section {
   width: 100%;
   min-height: 100vh;
@@ -244,20 +245,20 @@ section {
   justify-content: center;
 }
 
-/* line 91, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+/* line 92, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
 div.content-wrapper {
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 380px) {
-  /* line 97, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  /* line 98, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
     top: 38%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  /* line 104, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  /* line 105, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
     top: 31%;
     right: 12%;
