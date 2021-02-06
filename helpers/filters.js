@@ -19,7 +19,7 @@ export function filterPosts(filterObj, posts) {
   // Filter search
   if (filterObj.search !== '') {
     const searchList = []
-    const searchTerm = filterObj.search.toLowerCase()
+    const searchTerm = filterObj.search.toLowerCase().trim()
     for (let i = 0; i < filteredPosts.length; i++) {
       if (
         filteredPosts[i].title !== null &&

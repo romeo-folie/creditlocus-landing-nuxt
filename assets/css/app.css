@@ -642,7 +642,7 @@ section.intro .intro-content .image-right img {
 @media screen and (min-width: 1024px) {
   /* line 175, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h2 {
-    font-size: 3.5rem;
+    font-size: 3.4rem;
   }
   /* line 177, D:/Projects/htmlCSS/credit-locus/sass/layouts/_intro-section.sass */
   section.intro .intro-content .text-left h4 {
@@ -883,57 +883,61 @@ section.offer .offer-content .text-right .bank-slider img {
 }
 
 @media screen and (max-width: 340px) {
-  /* line 137, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 136, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  section.offer .offer-content {
+    width: 95%;
+  }
+  /* line 138, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .amt-card-left {
     margin-right: auto;
   }
-  /* line 139, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 140, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .amt-card-left .amt-card-bg {
     width: 100%;
     height: 450px;
   }
-  /* line 144, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 145, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .amt-card-left .amt-card-bg .amt-card .amt-card-content h4 {
     font-size: 1rem;
   }
-  /* line 146, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 147, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .amt-card-left .amt-card-bg .amt-card .amt-card-content h3 {
     font-size: 1.5rem;
   }
-  /* line 148, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 149, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .amt-card-left .amt-card-bg span#ill {
     width: 100%;
     text-align: center;
   }
-  /* line 151, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 152, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .fee-container {
     font-size: 0.9rem;
   }
-  /* line 153, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 154, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .fee-container span#repayment {
     text-align: left;
   }
-  /* line 155, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 156, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right {
     max-width: 95%;
   }
-  /* line 157, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 158, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right h3 {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 164, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 165, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .amt-card-left .amt-card-bg {
     height: 600px;
     width: 470px;
   }
-  /* line 167, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 168, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right {
     max-width: 50%;
   }
-  /* line 169, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
+  /* line 170, D:/Projects/htmlCSS/credit-locus/sass/layouts/_offer-section.sass */
   section.offer .offer-content .text-right h3 {
     font-size: 3.0rem;
   }
