@@ -8,7 +8,7 @@
           v-model="search"
           type="text"
           name="search"
-          placeholder="Keyword"
+          placeholder="Title or category"
         />
         <div class="vertical-line"></div>
       </div>
@@ -17,7 +17,7 @@
         <select id="filter" v-model="category" name="filter" :value="category">
           <option value="all">All</option>
           <option v-for="cat in categories" :key="cat.id" :value="cat.name">
-            {{ cat.name }}  
+            {{ cat.name }}
           </option>
         </select>
       </div>
