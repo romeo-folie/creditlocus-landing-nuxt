@@ -253,7 +253,7 @@ div.content-wrapper {
 @media screen and (max-width: 780px) {
   /* line 98, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
-    top: 37%;
+    top: 39%;
   }
 }
 
@@ -271,15 +271,8 @@ div.content-wrapper {
   }
 }
 
-@media screen and (max-width: 340px) {
-  /* line 116, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
-  body .overlay .close-btn {
-    top: 35%;
-  }
-}
-
 @media screen and (min-width: 1280px) {
-  /* line 123, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
+  /* line 117, D:/Projects/htmlCSS/credit-locus/sass/base/_base.sass */
   body .overlay .close-btn {
     top: 31%;
     right: 12%;
@@ -331,7 +324,7 @@ header.top-nav.active {
 
 /* line 15, D:/Projects/htmlCSS/credit-locus/sass/layouts/_navbar.sass */
 .navbar .left-items .brand a img {
-  width: 130px;
+  width: 140px;
 }
 
 /* line 17, D:/Projects/htmlCSS/credit-locus/sass/layouts/_navbar.sass */
