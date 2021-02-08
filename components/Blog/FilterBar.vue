@@ -9,6 +9,7 @@
           type="text"
           name="search"
           placeholder="Title or category"
+          autocomplete="off"
         />
         <div class="vertical-line"></div>
       </div>
