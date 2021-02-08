@@ -8,8 +8,8 @@
 
         <div class="payment">
           <img src="/images/visa.png" alt="visa-logo" />
-          <img src="/images/mastercard.png" alt="mastercard-logo" />
-          <img src="/images/momo.png" alt="mobile-money-logo" />
+          <img src="/images/tinified/mastercard.png" alt="mastercard-logo" />
+          <img src="/images/tinified/momo.png" alt="mobile-money-logo" />
         </div>
 
         <div id="play-video" class="play-video" onclick="showVideo()">
@@ -22,7 +22,7 @@
 
       <div class="image-right" data-aos="flip-right">
         <div class="card-bg">
-          <img src="/images/mockup.png" alt="Phone mockup" />
+          <img src="/images/tinified/mockup.png" alt="Phone mockup" />
         </div>
       </div>
 

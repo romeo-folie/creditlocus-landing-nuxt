@@ -5,13 +5,16 @@
         <div class="left" data-aos="zoom-in">
           <h3>Power up your business with cash flow support.</h3>
           <img
-            src="/images/cf-small.jpg"
+            src="/images/tinified/cf-small-min.jpg"
             alt="Colourful photo of tea and a laptop"
           />
         </div>
 
         <div class="right" data-aos="zoom-in-left">
-          <img src="/images/cf-large.jpg" alt="Photo of buildings" />
+          <img
+            src="/images/tinified/cf-large-min.jpg"
+            alt="Photo of buildings"
+          />
         </div>
       </div>
 

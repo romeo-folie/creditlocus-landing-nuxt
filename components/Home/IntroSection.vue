@@ -20,7 +20,11 @@
       </div>
 
       <div class="image-right">
-        <img class="slide-in-bottom" src="/images/rocket.png" alt="rocket" />
+        <img
+          class="slide-in-bottom"
+          src="/images/tinified/rocket.png"
+          alt="rocket"
+        />
       </div>
     </div>
   </section>
