@@ -2684,7 +2684,7 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media {
 }
 
 /* line 42, D:/Projects/htmlCSS/credit-locus/sass/layouts/_footer.sass */
-footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of-type) {
+footer.bottom-nav .bottom-nav-content .final-line .social-media a:not(:last-of-type) {
   margin-right: 15px;
 }
 
@@ -2724,7 +2724,7 @@ footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of
     margin-top: 20px;
   }
   /* line 67, D:/Projects/htmlCSS/credit-locus/sass/layouts/_footer.sass */
-  footer.bottom-nav .bottom-nav-content .final-line .social-media img:not(:last-of-type) {
+  footer.bottom-nav .bottom-nav-content .final-line .social-media a:not(:last-of-type) {
     margin-right: 15px;
   }
 }

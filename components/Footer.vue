@@ -32,10 +32,18 @@
         </div>
 
         <div class="social-media">
-          <img src="/icons/facebook.svg" alt="facebook_icon" />
-          <img src="/icons/twitter.svg" alt="twitter_icon" />
-          <img src="/icons/instagram.svg" alt="instagram_icon" />
-          <img src="/icons/linkedin.svg" alt="linkedin_icon" />
+          <a href="http://facebook.com/creditlocus" target="_blank"
+            ><img src="/icons/facebook.svg" alt="facebook icon"
+          /></a>
+          <a href="http://twitter.com/creditlocus" target="_blank"
+            ><img src="/icons/twitter.svg" alt="twitter icon"
+          /></a>
+          <a href="http://instagram.com/creditlocus" target="_blank"
+            ><img src="/icons/instagram.svg" alt="instagram icon"
+          /></a>
+          <a href="http://linkedin.com/company/creditlocus" target="_blank"
+            ><img src="/icons/linkedin.svg" alt="linkedin icon"
+          /></a>
         </div>
       </div>
     </div>
