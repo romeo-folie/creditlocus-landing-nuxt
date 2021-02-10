@@ -60,7 +60,6 @@ export default {
   name: 'OfferSection',
   data() {
     return {
-      fee: 400,
       amount: 0,
       step: 100,
       interval: null,
@@ -103,7 +102,11 @@ export default {
     repayment() {
       const repay = parseInt(this.amount) + parseInt(this.fee)
       const result = this.amount > 0 ? repay : this.amount
-      return result
+      return result.toFixed(0)
+    },
+    fee() {
+      const res = this.amount * 0.1
+      return res.toFixed(0)
     },
   },
   watch: {

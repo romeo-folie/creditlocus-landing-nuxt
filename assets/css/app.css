@@ -1302,9 +1302,10 @@ section.approval .approval-content .approval-grid .approval-item .text-container
   margin: 0;
   font-size: 1.3rem;
   color: #5F626F;
+  font-weight: 800;
 }
 
-/* line 35, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+/* line 36, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
 section.approval .approval-content .approval-grid .approval-item .text-container p {
   font-size: 1.2rem;
   color: #909ABB;
@@ -1313,62 +1314,62 @@ section.approval .approval-content .approval-grid .approval-item .text-container
 }
 
 @media screen and (max-width: 1060px) {
-  /* line 44, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 45, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content {
     padding: 100px 0;
   }
-  /* line 46, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 47, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content h3 {
     font-size: 2.5rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  /* line 52, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 53, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content h3 {
     font-size: 2.2rem;
   }
-  /* line 54, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 55, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid {
     width: 100%;
   }
-  /* line 57, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 58, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid .approval-item img {
     height: 50px;
   }
-  /* line 59, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 60, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid .approval-item .text-container {
     width: 70%;
   }
-  /* line 61, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 62, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid .approval-item .text-container h4 {
     font-size: 1.2rem;
   }
-  /* line 63, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 64, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid .approval-item .text-container p {
     font-size: 1.1rem;
   }
 }
 
 @media screen and (max-width: 340px) {
-  /* line 69, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 70, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content h3 {
     font-size: 1.5rem;
   }
-  /* line 71, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 72, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid {
     text-align: center;
   }
-  /* line 73, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 74, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid .approval-item {
     flex-direction: column;
     align-items: center;
   }
-  /* line 76, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 77, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid .approval-item img {
     margin-bottom: 10px;
   }
-  /* line 79, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 80, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid .approval-item .text-container h4 {
     margin-left: auto;
     margin-right: auto;
@@ -1376,7 +1377,7 @@ section.approval .approval-content .approval-grid .approval-item .text-container
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 89, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
+  /* line 90, D:/Projects/htmlCSS/credit-locus/sass/layouts/_approval-section.sass */
   section.approval .approval-content .approval-grid .approval-item {
     height: 90px;
   }
