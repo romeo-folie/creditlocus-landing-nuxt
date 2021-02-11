@@ -86,7 +86,9 @@ export default {
     { src: '~/plugins/localStorage.js', ssr: false },
     { src: '~/plugins/vue-tiny-slider.js', mode: 'client' }
   ],
-
+  generate: {
+    fallback: '404.html'
+  },
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: [
     {
