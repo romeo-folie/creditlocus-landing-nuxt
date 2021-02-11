@@ -102,11 +102,12 @@ export default {
     repayment() {
       const repay = parseInt(this.amount) + parseInt(this.fee)
       const result = this.amount > 0 ? repay : this.amount
-      return result.toFixed(0)
+      return this.amount > 0 ? result.toFixed(0) : result
     },
     fee() {
-      const res = this.amount * 0.1
-      return res.toFixed(0)
+      const fee = parseInt(this.amount) * 0.1
+      const res = this.amount > 0 ? fee : this.amount
+      return this.amount > 0 ? res.toFixed(0) : res
     },
   },
   watch: {
