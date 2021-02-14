@@ -32,7 +32,7 @@
 
       <div class="text-right">
         <h3>
-          Get a customized offer based on our revenue trends, and then choose
+          Get a customized offer based on your revenue trends, and then choose
           your loan size.
         </h3>
         <p>
