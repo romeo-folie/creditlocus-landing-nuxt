@@ -13,7 +13,11 @@
 
         <div class="email-input">
           <input v-model="email" type="email" placeholder="email@example.com" />
-          <a class="join-btn" href="javascript:void(0);" @click="saveUser"
+          <a
+            class="join-btn"
+            href="javascript:void(0);"
+            :class="disabledClass"
+            @click="saveUser"
             >Get early access</a
           >
         </div>
@@ -48,6 +52,9 @@ export default {
     ...mapGetters({
       user: 'users/getLastUser',
     }),
+    disabledClass() {
+      return !this.email.length ? 'disabled' : ''
+    },
   },
   methods: {
     saveUser(e) {
@@ -90,6 +97,9 @@ export default {
 </script>
 
 <style scoped>
+.disabled {
+  pointer-events: none;
+}
 .slide-in-bottom {
   -webkit-animation: slide-in-bottom 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86)
     2s both;

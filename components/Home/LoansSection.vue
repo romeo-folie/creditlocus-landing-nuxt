@@ -12,7 +12,8 @@
           <img src="/images/tinified/momo.png" alt="mobile-money-logo" />
         </div>
 
-        <div id="play-video" class="play-video" onclick="showVideo()">
+        <div id="play-video" class="play-video">
+          <!-- onclick="showVideo()" -->
           <div class="play-cont">
             <img src="/icons/play.svg" alt="play button" />
           </div>
@@ -28,14 +29,14 @@
 
       <div id="vid-cont" class="video-container">
         <div class="video-content">
-          <iframe
+          <!-- <iframe
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/fTwXS2H_iJo?controls=0"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe> -->
         </div>
       </div>
     </div>

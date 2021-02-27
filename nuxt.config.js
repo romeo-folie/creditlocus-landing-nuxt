@@ -9,7 +9,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'We are a growing technology-as-a-service platform for SME financing across Africa.' },
-      { name: 'keywords', content: 'credit, loan, SMEs, MSMEs, finance, data, big data, business, ghana loan, online loan, fast loan'},
+      { name: 'keywords', content: 'credit locus,  credit locus loans, about credit locus, credit, loan, SMEs, MSMEs, finance, data, big data, business, ghana loan, online loan, fast loan'},
       { name: "msapplication-TileColor", content:"#603cba" },
       { name: "msapplication-TileImage", content:"/favicon/mstile-150x150.png" },
       { name: "theme-color", content:"#ffffff" }
