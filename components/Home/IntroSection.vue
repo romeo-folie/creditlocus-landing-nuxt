@@ -18,8 +18,9 @@
             href="javascript:void(0);"
             :class="disabledClass"
             @click="saveUser"
-            >Get early access</a
-          >
+            ><span v-show="!loading" class="text">Get early access</span
+            ><span v-show="loading" class="loading"></span
+          ></a>
         </div>
       </div>
 
@@ -55,6 +56,9 @@ export default {
     disabledClass() {
       return !this.email.length ? 'disabled' : ''
     },
+    loading() {
+      return this.$store.state.users.loading
+    },
   },
   methods: {
     saveUser(e) {
@@ -77,6 +81,7 @@ export default {
             this.email = ''
             this.$store.commit('users/setUser', res.email)
             this.$store.dispatch('notifications/showSuccessAlert', res.email)
+            this.$store.commit('users/setLoading', false)
           })
           .catch((e) => {
             console.log('error ', e)
@@ -84,6 +89,7 @@ export default {
               'notifications/showErrorAlert',
               'Failed to add email'
             )
+            this.$store.commit('users/setLoading', false)
           })
       } else {
         this.$store.dispatch(
