@@ -108,8 +108,8 @@ export default {
 }
 .slide-in-bottom {
   -webkit-animation: slide-in-bottom 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86)
-    2s both;
-  animation: slide-in-bottom 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 2s both;
+    1.8s both;
+  animation: slide-in-bottom 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 1.8s both;
 }
 
 .fade-in-left {
