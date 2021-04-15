@@ -1144,10 +1144,10 @@
     html-minifier "^4.0.0"
     node-html-parser "^2.0.0"
 
-"@nuxt/http@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/http/-/http-0.6.2.tgz#194002fcf037f69b1572a6439f449839154e4b6a"
-  integrity sha512-XD1w1W92iKqA5Jo7pT3AgoLsWIUy4k3Ae7zyi+sgmFLReISjvr8neXbWiwxRm0yolsAg/WM++gDKFfGTh2LH8g==
+"@nuxt/http@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/http/-/http-0.6.4.tgz#ca03989b4d2308da468aebea6a2ce393db67eb3f"
+  integrity sha512-7tVuqjac611WArO9oLrzJqx9SRdTNrMZqBBKHaFbmWsnaIZyxb8tJcYPcjUZe8m9zWGvPiGAyi1JnToAaw7dKA==
   dependencies:
     "@nuxtjs/proxy" "^2.1.0"
     abort-controller "^3.0.0"
@@ -10790,10 +10790,8 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
